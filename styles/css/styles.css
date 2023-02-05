@@ -66,6 +66,9 @@
   text-decoration: none;
   color: inherit;
 }
+.header__container__content .navbar__container .nav__links__burger--show {
+  display: none;
+}
 .header__container__content .navbar__container .nav__links .burger-icon {
   margin: 1.5rem 1rem 1.5rem 1.5rem;
 }
