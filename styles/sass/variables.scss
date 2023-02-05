@@ -1,0 +1,39 @@
+// Colors
+$white:  #FFFFFF;
+$black: #333333;
+$darkBlack:  #222222;
+$gold:#BEAD8E;
+$darkGold: #BDAC8D;
+$softGrey:#F8F8F8;
+$footerGray:#777777;
+$slider: #EDEDED;
+//Family-Fonts
+$fontArchivo: 'Archivo', sans-serif;
+$fontOld: 'Old Standard TT', serif;
+$fontRoboto: 'Roboto', sans-serif;
+//Font-Size
+$sizeP: 16px;
+$sizeTitle: 24px;
+$sizeH3: 26px;
+$sizeH2:56px;
+$sizeButton: 14px;
+
+:root{
+    --white: #{$white};
+    --black: #{$black};
+    --darkBlack: #{$darkBlack};
+    --gold: #{$gold};
+    --darkGold: #{$darkGold};
+    --softGrey: #{$softGrey};
+    --footerGray: #{$footerGray};
+    --slider: #{$slider};
+    --fontArchivo: #{$fontArchivo};
+    --fontOld: #{$fontOld};
+    --fontRoboto: #{$fontRoboto};
+    --sizeP: #{$sizeP};
+    --sizeTitle: #{$sizeTitle};
+    --sizeH3: #{$sizeH3};
+    --sizeH2:#{$sizeH2};
+    --sizeButton: #{$sizeButton};
+
+}
