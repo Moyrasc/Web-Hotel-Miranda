@@ -9,6 +9,7 @@
   --greyShadow: #8b8b8b;
   --blackFull: #000000;
   --slider: #EDEDED;
+  --greyInput: #686868;
   --fontArchivo: Archivo, sans-serif;
   --fontOld: Old Standard TT, serif;
   --fontRoboto: Roboto, sans-serif;
@@ -304,6 +305,56 @@
 .ultimate-section__buttons .btn--gold {
   border: none;
   background-color: #BEAD8E;
+}
+
+.availability {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  background-color: #222222;
+}
+.availability__text {
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.availability__input {
+  font-size: 14px;
+  padding-bottom: 14px;
+  color: #686868;
+  width: 100%;
+  margin: 30px 0;
+  border: none;
+}
+.availability__input:focus {
+  outline: none;
+}
+.availability .input__date {
+  display: flex;
+  padding: 14px 0;
+  font-family: Roboto, sans-serif;
+  color: #686868;
+}
+.availability .input__date--gold {
+  flex-direction: row-reverse;
+  background-color: transparent;
+  border-bottom: 2px solid #BEAD8E;
+}
+.availability .input__date--gold::-webkit-calendar-picker-indicator {
+  filter: invert(0.5) sepia(1);
+  -webkit-filter: invert(0.5) sepia(100%);
+}
+.availability .btn--gold {
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  height: 50px;
+  width: 220px;
+  background-color: #BEAD8E;
+  margin-bottom: 1rem;
 }
 
 html,
