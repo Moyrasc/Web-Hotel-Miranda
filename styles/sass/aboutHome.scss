@@ -1,0 +1,108 @@
+
+.about {
+    margin-top: 60px;
+
+    &__underground {
+        background-color: #{$lightgrey};
+        padding: 30px 20px;
+        &__title {
+            font-family: #{$fontOld};
+            font-size: 3rem;
+            max-width: 20rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+
+            &--h5 {
+                font-family: #{$fontArchivo};
+                font-size: 13px;
+                font-weight: 700;
+                margin-bottom: 32px;
+                color: #{$footerGray};
+                letter-spacing: 3px;
+            }
+        }
+        &__p {
+            font-family: #{$fontArchivo};
+            font-size: 12px;
+            line-height: 24px;
+            // max-width: 16rem;
+            margin-bottom: 24px;
+        }
+        .btn--gold {
+            margin-bottom: 115px;
+            border: none;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            color: #{$white};
+            background-color: #{$gold};
+            height: 50px;
+            width: 220px;
+            
+        }
+    }
+
+    &__cards {
+        padding: 0 20px;
+        margin-top: -5rem;
+    }
+
+    &__card {
+        width: 270px;
+        margin: auto;
+        &--team {
+            margin: auto;
+        }
+
+        &__img {
+            
+            min-height: 300px;
+            background-size: cover;
+            background-position: center;
+            // background-attachment: local;
+        }
+        &__description {
+            position: relative;
+            width: inherit;
+            text-align: center;
+            padding: 50px 0;
+
+            &__img {
+                width: 70px;
+                height: 50px;
+                margin-bottom: 25px;
+                &--calendar{
+                    width: 60px;
+                    margin-bottom: 25px;
+                }
+            }
+
+            &__title {
+                font-family: #{$fontOld};
+                font-size: 30px;
+                margin-bottom: 15px;
+                font-weight: 400;
+            }
+
+            &__text {
+                font-family: #{$fontRoboto};
+                line-height: 1.7;
+            }
+
+            &__bg {
+                position: absolute;
+                top: 50px;
+                right: 0;
+                width: 145px;
+                height: 105px;
+                opacity: 0.1;
+            }
+
+            &--black {
+                background-color: #{$darkBlack};
+                color:  #{$white};
+                margin-top: -0.3rem;
+            }
+        }
+    }
+}
+
