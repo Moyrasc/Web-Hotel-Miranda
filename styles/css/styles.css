@@ -25,7 +25,7 @@
   background-color: #333333;
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 1;
 }
 .header__container__content__text {
   display: none;
@@ -117,7 +117,7 @@
 .header__container__content .navbar__container__icon {
   display: flex;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 .header__container__content .navbar__container__icon__container {
   display: flex;
@@ -127,7 +127,7 @@
 .header__container__content .navbar__container__icon__container img {
   width: 20px;
 }
-.header__container__content .navbar__container__icon .login {
+.header__container__content .navbar__container__icon .user {
   margin-right: 20px;
 }
 
