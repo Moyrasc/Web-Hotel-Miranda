@@ -423,6 +423,10 @@
   height: 50px;
   margin-bottom: 25px;
 }
+.about__card__description__img--calendar {
+  width: 60px;
+  margin-bottom: 25px;
+}
 .about__card__description__title {
   font-family: Old Standard TT, serif;
   font-size: 30px;
@@ -442,7 +446,7 @@
   opacity: 0.1;
 }
 .about__card__description--black {
-  background-color: #333333;
+  background-color: #222222;
   color: #FFFFFF;
   margin-top: -0.3rem;
 }
