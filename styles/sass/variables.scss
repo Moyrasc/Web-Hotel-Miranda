@@ -10,6 +10,7 @@ $slider: #EDEDED;
 $greyShadow: #8b8b8b;
 $blackFull: #000000;
 $greyInput: #686868;
+$lightgrey: #F9F9F9;
 
 //Family-Fonts
 $fontArchivo: 'Archivo', sans-serif;
@@ -46,6 +47,7 @@ $sizeButton: 14px;
     --blackFull: #{$blackFull};
     --slider: #{$slider};
     --greyInput: #{$greyInput};
+    --lightGrey: #{$lightgrey};
     //family-fonts
     --fontArchivo: #{$fontArchivo};
     --fontOld: #{$fontOld};

@@ -10,6 +10,7 @@
   --blackFull: #000000;
   --slider: #EDEDED;
   --greyInput: #686868;
+  --lightGrey: #F9F9F9;
   --fontArchivo: Archivo, sans-serif;
   --fontOld: Old Standard TT, serif;
   --fontRoboto: Roboto, sans-serif;
@@ -355,6 +356,95 @@
   width: 220px;
   background-color: #BEAD8E;
   margin-bottom: 1rem;
+}
+
+.about {
+  margin-top: 60px;
+}
+.about__underground {
+  background-color: #F9F9F9;
+  padding: 30px 20px;
+}
+.about__underground__title {
+  font-family: Old Standard TT, serif;
+  font-size: 3rem;
+  max-width: 20rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.about__underground__title--h5 {
+  font-family: Archivo, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #777777;
+  letter-spacing: 3px;
+}
+.about__underground__p {
+  font-family: Archivo, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.about__underground .btn--gold {
+  margin-bottom: 115px;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  height: 50px;
+  width: 220px;
+}
+.about__cards {
+  padding: 0 20px;
+  margin-top: -5rem;
+}
+.about__card {
+  width: 270px;
+  margin: auto;
+}
+.about__card--team {
+  margin: auto;
+}
+.about__card__img {
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.about__card__description {
+  position: relative;
+  width: inherit;
+  text-align: center;
+  padding: 50px 0;
+}
+.about__card__description__img {
+  width: 70px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.about__card__description__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.about__card__description__text {
+  font-family: Roboto, sans-serif;
+  line-height: 1.7;
+}
+.about__card__description__bg {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 145px;
+  height: 105px;
+  opacity: 0.1;
+}
+.about__card__description--black {
+  background-color: #333333;
+  color: #FFFFFF;
+  margin-top: -0.3rem;
 }
 
 html,
