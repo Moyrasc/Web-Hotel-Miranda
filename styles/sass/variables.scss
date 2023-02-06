@@ -23,13 +23,14 @@ $sizeH2:56px;
 $sizeButton: 14px;
 
 //mixins
-@mixin btn($bg,$width){
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-    font-family: #{$fontRoboto};
-    color: #{$white};
-    width: $width;
-}
+// @mixin btn($bg,$width){
+//     font-weight: 700;
+//     letter-spacing: 0.2rem;
+//     font-family: #{$fontRoboto};
+//     color: #{$white};
+//     width: $width;
+//     height: 60px;
+// }
 
 :root{
     //colors

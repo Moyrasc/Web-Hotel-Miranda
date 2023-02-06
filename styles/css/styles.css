@@ -261,6 +261,51 @@
   text-decoration: none;
 }
 
+.ultimate-section {
+  display: flex;
+}
+.ultimate-section__content {
+  padding: 75px 20px;
+  background-color: #333333;
+}
+.ultimate-section__title {
+  width: 15rem;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.ultimate-section__description {
+  font-family: Old Standard TT, serif;
+  font-size: 2.8rem;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 20rem;
+}
+.ultimate-section__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.ultimate-section__buttons__btn {
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: #333333;
+  height: 50px;
+  margin-bottom: 1rem;
+  width: 200px;
+}
+.ultimate-section__buttons .btn--gold {
+  border: none;
+  background-color: #BEAD8E;
+}
+
 html,
 * {
   box-sizing: border-box;
