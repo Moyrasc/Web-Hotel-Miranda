@@ -1,7 +1,7 @@
 const swiper = new Swiper(".swiper-menu", {
     direction: "horizontal",
     loop: false,
-    spaceBetween: 0,
+    spaceBetween: 20,
     // autoplay: {
     //     delay: 4000,
     // },
