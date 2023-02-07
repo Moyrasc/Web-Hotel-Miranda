@@ -739,6 +739,9 @@
   font-family: Roboto, sans-serif;
   line-height: 24px;
 }
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__arrow {
+  display: none;
+}
 .menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food:hover {
   background-color: #222222;
   color: #FFFFFF;
@@ -769,9 +772,6 @@
   background-color: #BEAD8E;
 }
 
-.stats {
-  width: 100%;
-}
 .stats-container {
   padding: 3rem 0rem;
   background-color: #222222;
