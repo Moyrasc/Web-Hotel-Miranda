@@ -29,7 +29,7 @@
   background-color: #333333;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 .header__container__content__text {
   display: none;
@@ -458,7 +458,7 @@
 }
 .rooms__title {
   font-family: Old Standard TT, serif;
-  font-size: 50px;
+  font-size: 48px;
   text-align: center;
   padding-bottom: 0.8rem;
 }
@@ -554,9 +554,10 @@
 }
 .room-home__info__text__description {
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   color: #777777;
   margin: 12px 0;
+  line-height: 1.7;
 }
 .room-home__info__price {
   font-family: Archivo, sans-serif;
@@ -584,7 +585,7 @@
 }
 .video-home__text__title {
   font-family: Old Standard TT, serif;
-  font-size: 56px;
+  font-size: 50px;
   margin-bottom: 16px;
 }
 .video-home__text__title--h5 {
@@ -596,9 +597,11 @@
 .video-home__text__title__p {
   color: #c2c2c2;
   margin-bottom: 32px;
+  line-height: 1.8;
+  font-size: 13px;
 }
 .video-home__source {
-  margin-bottom: 16px;
+  margin-bottom: 22px;
   width: 100%;
 }
 .video-home__source--mobile {
@@ -707,9 +710,6 @@
   color: #777777;
   margin-bottom: 24px;
 }
-.menu .swiper-menu {
-  position: relative;
-}
 .menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column {
   overflow: hidden;
 }
@@ -746,13 +746,37 @@
   background-color: #222222;
   color: #FFFFFF;
 }
+.menu .swiper-menu-buttons {
+  margin: 0 20px;
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+}
+.menu .swiper-menu__button {
+  background-color: #F8F8F8;
+  width: 30px;
+  height: 30px;
+  padding: 6px 1px;
+}
+.menu .swiper-menu__button img {
+  width: 5px;
+  height: 10px;
+}
+.menu .swiper-menu__button:hover {
+  background-color: #BEAD8E;
+}
+.menu .swiper-menu__button:hover img {
+  filter: brightness(0) invert(1);
+}
 
 .swiper-menu-images {
   margin: 5rem auto;
   overflow: hidden;
 }
 .swiper-menu-images .swiper-wrapper .swiper-slide .image__container {
-  width: 335px;
+  width: 300px;
   height: 335px;
   margin: 0 auto;
 }

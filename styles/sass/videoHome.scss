@@ -11,7 +11,7 @@
 
         &__title {
             font-family: #{$fontOld};
-            font-size: 56px;
+            font-size: 50px;
             margin-bottom: 16px;
             &--h5 {
                 font-weight: 700;
@@ -22,11 +22,13 @@
             &__p {
                 color: #{$greyText};
                 margin-bottom: 32px;
+                line-height: 1.8;
+                font-size: 13px;
             }
         }
     }
     &__source {
-        margin-bottom: 16px;
+        margin-bottom: 22px;
         width: 100%;
         
         &--mobile {

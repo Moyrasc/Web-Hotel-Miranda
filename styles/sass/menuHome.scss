@@ -1,7 +1,8 @@
+
 .menu {
     padding: 115px 20px 0px 20px;
     position: relative;
-	overflow: hidden;
+    overflow: hidden;
     &__img {
         position: absolute;
         width: 100px;
@@ -15,7 +16,7 @@
         font-family: #{$fontOld};
         max-width: 350px;
         font-weight: 400;
-        color:  #{$darkBlack};
+        color: #{$darkBlack};
         letter-spacing: -1.2px;
         padding-bottom: 1.5rem;
         &--h5 {
@@ -23,23 +24,22 @@
             font-family: #{$fontArchivo};
             letter-spacing: 3px;
             font-weight: 700;
-            color:#{$footerGray};
+            color: #{$footerGray};
             margin-bottom: 24px;
         }
     }
     .swiper-menu {
-        position: relative;
-		//   overflow: hidden;
+        // position: relative;
+        //   overflow: hidden;
         .swiper-wrapper {
-			
             .swiper-slide {
                 .swiper-foods__column {
-						overflow: hidden;
+                    overflow: hidden;
                     .food {
                         display: flex;
                         margin-bottom: 16px;
                         height: min-content;
-                        
+
                         &__img {
                             width: 120px;
                             // height: 120px;
@@ -71,10 +71,38 @@
                         }
 
                         &:hover {
-                            background-color:  #{$darkBlack};
+                            background-color: #{$darkBlack};
                             color: #{$white};
                         }
                     }
+                }
+            }
+        }
+        &-buttons {
+            // position: absolute;
+            // bottom: -30px;
+            // right: 0;
+            margin: 0 20px;
+            display: flex;
+            gap: 16px;
+            text-align: center;
+            align-items: center;
+            justify-content: end;
+        }
+
+        &__button {
+            background-color: #{$softGrey};
+            width: 30px;
+            height: 30px;
+            padding: 6px 1px;
+            img {
+                width: 5px;
+                height: 10px;
+            }
+            &:hover {
+                background-color: #{$gold};
+                img {
+                    filter: brightness(0) invert(1);
                 }
             }
         }
