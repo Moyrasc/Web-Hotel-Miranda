@@ -665,7 +665,7 @@
 .facilities .card__description {
   font-family: Archivo, sans-serif;
   font-size: 13px;
-  color: #333333;
+  color: #777777;
   line-height: 1.9;
 }
 .facilities .swiper-facilities {
@@ -675,6 +675,97 @@
   margin-top: 32px;
   display: flex;
   justify-content: center;
+}
+
+.menu {
+  padding: 115px 20px 0px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.menu__img {
+  position: absolute;
+  width: 100px;
+  height: 110px;
+  top: 0;
+  right: -2px;
+}
+.menu__title {
+  font-size: 56px;
+  font-family: Old Standard TT, serif;
+  max-width: 350px;
+  font-weight: 400;
+  color: #222222;
+  letter-spacing: -1.2px;
+  padding-bottom: 1.5rem;
+}
+.menu__title--h5 {
+  font-size: 14px;
+  font-family: Archivo, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #777777;
+  margin-bottom: 24px;
+}
+.menu .swiper-menu {
+  position: relative;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column {
+  overflow: hidden;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food {
+  display: flex;
+  margin-bottom: 16px;
+  height: min-content;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__img {
+  width: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__text {
+  padding-left: 30px;
+  padding-top: 5px;
+  max-width: 215px;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__text__title {
+  font-size: 24px;
+  font-family: Old Standard TT, serif;
+  margin-bottom: 9px;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__text__description {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  line-height: 24px;
+}
+.menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food:hover {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.swiper-menu-images {
+  margin: 5rem auto;
+  overflow: hidden;
+}
+.swiper-menu-images .swiper-wrapper .swiper-slide .image__container {
+  width: 335px;
+  height: 335px;
+  margin: 0 auto;
+}
+.swiper-menu-images .swiper-wrapper .swiper-slide .image__container .image__menu {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swiper-menu-images .swiper-menu-images-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.swiper-menu-images .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
 }
 
 html,
