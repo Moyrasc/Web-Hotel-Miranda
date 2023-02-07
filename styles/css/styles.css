@@ -527,12 +527,13 @@
 .room-home__bar {
   background-color: #FFFFFF;
   width: 256px;
-  top: -1rem;
+  top: 0;
   display: flex;
   justify-content: space-around;
   position: absolute;
   right: 11%;
   padding: 10px;
+  box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
 }
 .room-home__bar__icon {
   width: 12px;
