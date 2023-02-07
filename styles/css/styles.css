@@ -11,6 +11,7 @@
   --slider: #EDEDED;
   --greyInput: #686868;
   --lightGrey: #F9F9F9;
+  --greyText: #c2c2c2;
   --fontArchivo: Archivo, sans-serif;
   --fontOld: Old Standard TT, serif;
   --fontRoboto: Roboto, sans-serif;
@@ -452,7 +453,7 @@
 }
 
 .rooms {
-  padding: 60px 0;
+  padding-top: 60px;
 }
 .rooms__title {
   font-family: Old Standard TT, serif;
@@ -468,7 +469,6 @@
   letter-spacing: 3px;
 }
 .rooms .swiper {
-  padding: 45px 0;
   position: relative;
 }
 .rooms .swiper__buttons {
@@ -567,6 +567,53 @@
 }
 .room-home__info__price__night {
   font-size: 13px;
+}
+
+.video-home {
+  margin-top: 5rem;
+}
+.video-home__container {
+  padding: 55px 20px;
+  background-color: #222222;
+}
+.video-home__text {
+  color: #FFFFFF;
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+}
+.video-home__text__title {
+  font-family: Old Standard TT, serif;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+.video-home__text__title--h5 {
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 32px;
+  color: #BEAD8E;
+}
+.video-home__text__title__p {
+  color: #c2c2c2;
+  margin-bottom: 32px;
+}
+.video-home__source {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.video-home__source--mobile {
+  width: 100%;
+  min-height: 270px;
+  object-fit: cover;
+  border: none;
+}
+.video-home__btn--gold {
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  height: 50px;
+  width: 220px;
 }
 
 html,
