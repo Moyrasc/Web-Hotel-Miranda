@@ -1,0 +1,33 @@
+.stats {
+    width: 100%;
+    &-container {
+        padding: 3rem 0rem;
+        background-color: #{$darkBlack};
+        margin-bottom: 3rem;
+    }
+    &__card {
+        // width: 210px;
+        text-align: center;
+        margin: 0 auto 60px auto;
+        img {
+            width: 78px;
+            height: 80px;
+        }
+
+        p {
+            font-family: #{$fontRoboto};
+        }
+        &__amount {
+            font-size: 60px;
+            color: #{$white};
+            span {
+                font-size: 12px;
+            }
+        }
+
+        &__text {
+            font-size: 14px;
+            color: #{$greyStats};
+        }
+    }
+}

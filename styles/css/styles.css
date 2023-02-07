@@ -12,6 +12,7 @@
   --greyInput: #686868;
   --lightGrey: #F9F9F9;
   --greyText: #c2c2c2;
+  --greyStats: #999999;
   --fontArchivo: Archivo, sans-serif;
   --fontOld: Old Standard TT, serif;
   --fontRoboto: Roboto, sans-serif;
@@ -766,6 +767,37 @@
 }
 .swiper-menu-images .swiper-pagination-bullet-active {
   background-color: #BEAD8E;
+}
+
+.stats {
+  width: 100%;
+}
+.stats-container {
+  padding: 3rem 0rem;
+  background-color: #222222;
+  margin-bottom: 3rem;
+}
+.stats__card {
+  text-align: center;
+  margin: 0 auto 60px auto;
+}
+.stats__card img {
+  width: 78px;
+  height: 80px;
+}
+.stats__card p {
+  font-family: Roboto, sans-serif;
+}
+.stats__card__amount {
+  font-size: 60px;
+  color: #FFFFFF;
+}
+.stats__card__amount span {
+  font-size: 12px;
+}
+.stats__card__text {
+  font-size: 14px;
+  color: #999999;
 }
 
 html,
