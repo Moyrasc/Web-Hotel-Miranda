@@ -1,0 +1,63 @@
+.upper-section {
+    position: relative;
+    &__content {
+        padding: 75px 20px;
+        background-color: #{$black};
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        width: 15rem;
+        font-family:  #{$fontRoboto};
+        font-size: 13px;
+        font-weight: 700;
+        color:  #{$white};
+        margin-top: 40px;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+    }
+
+    &__description {
+        font-family: #{$fontOld};
+        font-size: 2.8rem;
+        color: #{$white};
+        margin-top: 40px;
+        margin-bottom: 40px;
+        max-width: 20rem;
+    }
+    // &__button {
+    //     display: block;
+    //     margin-bottom: 20px;
+    //     border: 2px solid rgba(colors.$white, 0.33);
+    //     @include button(215px, colors.$grey-dark);
+    // }
+    // .button--gold {
+    //     border: none;
+    //     @include button(215px, colors.$gold-light);
+    // }
+
+    &__links{
+        font-family:  #{$fontArchivo};
+        font-weight: 700;
+        background-color: #{$white};
+        width: max-content;
+        padding: 16px 24px;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        &--about{
+            color: #{$gold}!important;
+        }
+        a{
+            text-decoration: none;
+        }
+        span{
+            padding: 0 5px;
+        }
+        :visited {
+            color: inherit;
+        }
+
+        
+    }
+}

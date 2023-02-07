@@ -1,0 +1,23 @@
+.video-about{
+    &__container {
+        padding: 55px 20px;
+        background-color: #{$darkBlack};
+    }
+    &__source {
+        margin-bottom: 22px;
+        width: 100%;
+        min-height: 270px;
+        object-fit: cover;
+        border: none;
+        padding: 0rem 1rem;
+        
+    }
+    &__p{
+        font-family: #{$fontOld};
+        font-size: 28px;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: -1.3px;
+        padding: 0rem 1rem;
+    }
+}
