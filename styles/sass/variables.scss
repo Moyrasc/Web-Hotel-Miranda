@@ -11,6 +11,8 @@ $greyShadow: #8b8b8b;
 $blackFull: #000000;
 $greyInput: #686868;
 $lightgrey: #F9F9F9;
+$greyText: #c2c2c2;
+$greyStats: #999999;
 
 //Family-Fonts
 $fontArchivo: 'Archivo', sans-serif;
@@ -48,6 +50,8 @@ $sizeButton: 14px;
     --slider: #{$slider};
     --greyInput: #{$greyInput};
     --lightGrey: #{$lightgrey};
+    --greyText: #{$greyText};
+    --greyStats: #{$greyStats};
     //family-fonts
     --fontArchivo: #{$fontArchivo};
     --fontOld: #{$fontOld};
