@@ -58,4 +58,11 @@
             justify-content: center;
         }
     }
+    .swiper-pagination-bullet-active {
+        background-color: #{$gold};
+    }
+    .grid-facilities {
+        display: none;
+    }
 }
+

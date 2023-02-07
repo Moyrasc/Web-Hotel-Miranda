@@ -681,6 +681,12 @@
   display: flex;
   justify-content: center;
 }
+.facilities .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
+}
+.facilities .grid-facilities {
+  display: none;
+}
 
 .menu {
   padding: 115px 20px 0px 20px;
