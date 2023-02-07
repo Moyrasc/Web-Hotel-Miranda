@@ -616,6 +616,67 @@
   width: 220px;
 }
 
+.facilities {
+  padding: 60px 24px;
+}
+.facilities__title {
+  font-family: Old Standard TT, serif;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 32px;
+  font-weight: 400;
+}
+.facilities__title--h5 {
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #777777;
+}
+.facilities .card {
+  position: relative;
+  padding: 0 15px;
+  max-width: 400px;
+  margin: auto;
+}
+.facilities .card__img {
+  margin: 60px 0 40px 0;
+}
+.facilities .card__img-background {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  font-family: Archivo, sans-serif;
+  font-size: 100px;
+  color: #333333;
+  opacity: 7%;
+  font-weight: 700;
+}
+.facilities .card__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #222222;
+  letter-spacing: -0.9px;
+}
+.facilities .card__description {
+  font-family: Archivo, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1.9;
+}
+.facilities .swiper-facilities {
+  overflow: hidden;
+}
+.facilities .swiper-facilities__pagination {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
 html,
 * {
   box-sizing: border-box;

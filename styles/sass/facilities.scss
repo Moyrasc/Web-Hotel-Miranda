@@ -1,0 +1,61 @@
+.facilities {
+    padding: 60px 24px;
+    &__title {
+        font-family: #{$fontOld};
+        font-size: 44px;
+        text-align: center;
+        padding-bottom: 32px;
+        font-weight: 400;
+
+        &--h5 {
+            font-family: #{$fontArchivo};
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin-bottom: 24px;
+            text-align: center;
+            color: #{$footerGray};
+        }
+    }
+    .card {
+        position: relative;
+        padding: 0 15px;
+        max-width: 400px;
+        margin: auto;
+        &__img {
+            margin: 60px 0 40px 0;
+            &-background {
+                position: absolute;
+                top: 0;
+                right: 1px;
+                font-family: #{$fontArchivo};
+                font-size: 100px;
+                color: #{$black};
+                opacity: 7%;
+                font-weight: 700;
+            }
+        }
+        &__title {
+            font-family: #{$fontOld};
+            font-size: 30px;
+            margin-bottom: 20px;
+            font-weight: 400;
+            color: #{$darkBlack};
+            letter-spacing: -0.9px;
+        }
+        &__description {
+            font-family: #{$fontArchivo};
+            font-size: 13px;
+            color: #{$black};
+            line-height: 1.9;
+        }
+    }
+    .swiper-facilities {
+        overflow: hidden;
+        &__pagination {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
