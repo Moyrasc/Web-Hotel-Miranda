@@ -121,7 +121,6 @@
 .header__container__content .navbar__container__icon {
   display: flex;
   align-items: center;
-  margin-right: 1.5rem;
 }
 .header__container__content .navbar__container__icon__container {
   display: flex;
@@ -130,6 +129,7 @@
 }
 .header__container__content .navbar__container__icon__container img {
   width: 20px;
+  margin-right: 12px;
 }
 .header__container__content .navbar__container__icon .user {
   margin-right: 20px;
@@ -1246,6 +1246,372 @@
 .contact_map .map__container {
   display: flex;
   justify-content: center;
+}
+
+.rooms-list {
+  display: block;
+  position: relative;
+}
+.rooms-list .swiper-wrapper {
+  padding: 0.5rem;
+}
+.rooms-list .swiper-room-list {
+  overflow: hidden;
+}
+.rooms-list .swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width: auto;
+}
+.rooms-list .swiper-pagination-bullet {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 0;
+  color: #000000;
+  background: #FFFFFF;
+  opacity: 1;
+}
+.rooms-list .swiper-pagination-bullet:hover {
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+}
+.rooms-list .swiper-pagination-bullet-active {
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+}
+.rooms-list .swiper-pagination-horizontal {
+  width: auto;
+}
+.rooms-list .swiper-button {
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+}
+.rooms-list .swiper-button-container {
+  display: flex;
+  justify-content: space-around;
+}
+.rooms-list .swiper-button .button-img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rooms-list .swiper-button .prev-img, .rooms-list .swiper-button .next-img {
+  cursor: pointer;
+}
+.rooms-list .room {
+  width: 300px;
+  padding-bottom: 28px;
+}
+.rooms-list .room__container {
+  width: 100%;
+}
+.rooms-list .room__img {
+  width: 100%;
+  height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rooms-list .room__content {
+  width: 300px;
+}
+.rooms-list .room__bar {
+  background-color: #FFFFFF;
+  width: 256px;
+  height: 40px;
+  margin: auto auto 28px auto;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
+  position: relative;
+  bottom: 10px;
+}
+.rooms-list .room__bar__icon {
+  width: 13px;
+  height: 13px;
+  margin: auto;
+  display: inline-block;
+}
+.rooms-list .room__text {
+  text-align: center;
+}
+.rooms-list .room__text__title {
+  font-family: Old Standard TT, serif;
+  font-size: 24px;
+}
+.rooms-list .room__text__description {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  padding: 16px 20px;
+  line-height: 24px;
+}
+.rooms-list .room__price {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rooms-list .room__price__text {
+  font-family: Archivo, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.rooms-list .room__price__amount {
+  color: #BEAD8E;
+}
+.rooms-list .room__price hr {
+  display: none;
+}
+.rooms-list .room__price__booking {
+  color: #777777;
+  opacity: 50%;
+}
+
+.room-details {
+  padding: 48px 20px 60px 20px;
+}
+.room-details__info__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 16px;
+}
+.room-details__info__title--h5 {
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+.room-details__info__price {
+  font-family: Archivo, sans-serif;
+  color: #BEAD8E;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.room-details__info__price__amount {
+  font-size: 32px;
+}
+.room-details__info__price__night {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.room-details__image {
+  width: 100%;
+}
+.room-details__image__container {
+  max-width: 400px;
+  margin: auto auto 50px auto;
+}
+.room-details__availability {
+  font-family: Archivo, sans-serif;
+  padding: 0 20px;
+}
+.room-details__availability__title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 36px;
+  font-weight: 700;
+}
+.room-details__availability__label {
+  font-size: 14px;
+  margin-bottom: 13px;
+  font-weight: 700;
+}
+.room-details__availability__input {
+  width: 100%;
+  height: 60px;
+  background-color: #F8F8F8;
+  color: #777777;
+  padding: 0 10%;
+}
+.room-details__availability__input::-webkit-calendar-picker-indicator {
+  filter: invert(49%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(90%) contrast(95%);
+  -webkit-filter: invert(49%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(90%) contrast(95%);
+}
+.room-details__availability .button--gold {
+  border: none;
+  margin: 1.5rem 0rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  height: 50px;
+  width: 240px;
+  margin-bottom: 48px;
+}
+.room-details__description {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  line-height: 24px;
+}
+
+.founder {
+  padding: 0 20px;
+}
+.founder__card {
+  padding: 60px 20px 40px 20px;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.founder__card__avatar {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin-bottom: 38px;
+}
+.founder__card__avatar__image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.founder__card__avatar__check {
+  width: 46px;
+  height: 46px;
+  padding: 10px;
+  position: absolute;
+  background-color: #BEAD8E;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+.founder__card__name {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.founder__card__position {
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  color: #BDAC8D;
+  margin-bottom: 25px;
+}
+.founder__card__description {
+  font-family: Archivo, sans-serif;
+  font-size: 16px;
+  color: #777777;
+}
+
+.cancellation {
+  padding: 63px 20px 100px 20px;
+}
+.cancellation__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  color: #222222;
+  margin-bottom: 11px;
+}
+.cancellation hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 35px;
+}
+.cancellation__description {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #777777;
+}
+
+.related-rooms {
+  padding: 0 20px;
+}
+.related-rooms__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  color: #222222;
+  margin-bottom: 11px;
+}
+.related-rooms hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 35px;
+}
+.related-rooms .swiper__buttons {
+  display: flex;
+  position: absolute;
+  top: 7rem;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+}
+.related-rooms .swiper-button {
+  width: 32px;
+  height: 32px;
+  padding: 12px;
+  padding: 6px 1px 5px 15px;
+  background-color: #FFFFFF;
+}
+.related-rooms .swiper-button--next {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.related-rooms .swiper-button--prev {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.related-rooms .swiper-button:hover {
+  background-color: #BEAD8E;
+}
+.related-rooms .swiper-button:hover .swiper-button--next, .related-rooms .swiper-button:hover .swiper-button--prev {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.room-home__bar--related {
+  top: 14rem;
+  left: 14px;
+}
+.room-home__info--related {
+  margin-top: 1rem;
+}
+
+.amenities {
+  padding: 0 20px 45px 20px;
+}
+.amenities__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  color: #222222;
+}
+.amenities hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 35px;
+}
+.amenities__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 17px 40px;
+}
+.amenities__item {
+  display: flex;
+}
+.amenities__item__image {
+  margin-right: 8px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.amenities__item__image--wifi {
+  width: 30px;
+}
+.amenities__item__text {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  color: #777777;
 }
 
 html,

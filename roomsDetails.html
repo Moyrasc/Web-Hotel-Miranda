@@ -10,12 +10,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Old+Standard+TT&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link href="./styles/css/styles.css" rel="stylesheet" />
     <title>Hotel Miranda</title>
 </head>
 
 <body>
-    <!-- <---- Header ----> -->
+   <!-- *** HEADER *** -->
 	<header class="header__container">
 		<div class="header__container__content">
 			<div class="navbar__container">
@@ -54,8 +55,395 @@
             </div>
         </div>
     </header>
- <!-- <---- Header ----> -->   
-                        
+ <!-- *** HEADER *** -->
+ <section class="upper-section">
+		<div class="upper-section__content">
+			<h5 class="upper-section__title">
+				The ultimate luxury experience
+			</h5>
+
+			<h2 class="upper-section__description">
+				Ultimate Room
+			</h2>
+			<div class="upper-section__links">
+				<a href="/">Home</a>
+				<span>|</span>
+				<a class="upper-section__links--about" href="./">Room Details</a>
+			</div>
+		</div>
+	</section>
+	<!-- -- room-details -- -->
+	<section class="room-details">
+		<div class="room-details__container">
+			<div class="room-details__info__container">
+				<div class="room-details__info">
+					<div class="room-details__info__text">
+						<h5 class="room-details__info__title--h5">DOUBLE BED</h5>
+						<h2 class="room-details__info__title">Luxury Double Bed</h2>
+					</div>
+					<div class="room-details__info__price">
+						<p class="room-details__info__price__amount">$375<span
+								class="room-details__info__price__night">/Night</span>
+						</p>
+					</div>
+				</div>
+				<div class="room-details__image__container">
+					<img class="room-details__image" src="./assets/img/rooms/whiteRoom.jpg" alt="Room">
+				</div>
+			</div>
+
+			<div class="room-details__availability">
+				<p class="room-details__availability__title">Check Availability</p>
+				<p class="room-details__availability__label">Check In</p>
+				<input class="room-details__availability__input availability__input" type="date" value="2023-02-08">
+				<p class="room-details__availability__label">Check Out</p>
+				<input class="room-details__availability__input availability__input" type="date" value="2023-02-10">
+				<button class="button--gold">CHECK AVAILABILITY</button>
+			</div>
+		</div>
+		<p class="room-details__description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+			ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+			fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+			accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+			quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+			aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+			nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+			sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+		</p>
+	</section>
+	<!-- -- amenities -- -->
+	<section class="amenities">
+		<p class="amenities__title">Amenities</p>
+		<hr>
+		<div class="amenities__grid">
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/airconditioner.png"
+					alt="Air conditioner">
+				<p class="amenities__item__text">Air conditioner</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image amenities__item__image--wifi"
+					src="./assets/icon/wifimini.png" alt="Wifi">
+				<p class="amenities__item__text">High speed WiFi</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/breakfastmini.png" alt="Breakfast">
+				<p class="amenities__item__text">Breakfast</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/kitchen.png" alt="Kitchen">
+				<p class="amenities__item__text">Kitchen</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/cleaning.png" alt="Cleaning">
+				<p class="amenities__item__text">Cleaning</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/shower.png" alt="Shower">
+				<p class="amenities__item__text">Shower</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/Grocery.png" alt="Grocery">
+				<p class="amenities__item__text">Grocery</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/singlebed.png" alt="Bed">
+				<p class="amenities__item__text">Single bed</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/ShopNear.png" alt="Shop near">
+				<p class="amenities__item__text">Shop near</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/Towels.png" alt="Towels">
+				<p class="amenities__item__text">Towels</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/onlineSupport.png"
+					alt="Online support">
+				<p class="amenities__item__text">24/7 Online Support</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/strongerLocker.png" alt="Locker">
+				<p class="amenities__item__text">Strong Locker</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/smartSecurity.png"
+					alt="Smart security">
+				<p class="amenities__item__text">Smart Security</p>
+			</div>
+
+			<div class="amenities__item">
+				<img class="amenities__item__image" src="./assets/icon/ExpertTeam.png" alt="Expert team">
+				<p class="amenities__item__text">Expert Team</p>
+			</div>
+		</div>
+	</section>
+	<!-- -- Founder -- -->
+	<section class="founder">
+		<div class="founder__card">
+			<div class="founder__card__avatar">
+				<img class="founder__card__avatar founder__card__avatar__image" src="./assets/img/Rosalina.jpg"
+					alt="Founder">
+				<div class="founder__card__avatar__check">
+					<img src="./assets/icon/check_mark.svg" alt="Check">
+				</div>
+			</div>
+
+			<p class="founder__card__name">Rosalina D. William</p>
+			<p class="founder__card__position">Founder, Qux Co.</p>
+			<p class="founder__card__description">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore.
+			</p>
+		</div>
+
+	</section>
+	<!-- -- cancellation -- -->
+	<section class="cancellation">
+		<div class="cancellation__title">
+			Cancellation
+		</div>
+		<hr>
+		<div class="cancellation__description">
+			Phasellus volutpat neque a tellus venenatis, a euismod augue facilisis. Fusce ut metus mattis, consequat
+			metus nec,
+			luctus lectus. Pellentesque orci quis hendrerit sed eu dolor. Cancel up to 14 days to get a full refund.
+		</div>
+	</section>
+	<!-- -- Related -- -->
+	<section class="related-rooms">
+		<div class="related-rooms__title">
+			Related rooms
+		</div>
+<hr>
+		<div class="swiper">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<div class="room-home">
+						<div class="room-home__main-container">
+							<div class="room-home__bar room-home__bar--related">
+								<img class="room__bar__icon" src="./assets/icon/bed.png" alt="Bed"></img>
+									<img class="room__bar__icon" src="./assets/icon/wifi.png" alt="Wifi"></img>
+									<img class="room__bar__icon" src="./assets/icon/car.png" alt="Parking"></img>
+									<img class="room__bar__icon" src="./assets/icon/air.png"
+										alt="Air conditioning"></img>
+									<img class="room__bar__icon" src="./assets/icon/gym.png" alt="Gym"></img>
+									<img class="room__bar__icon" src="./assets/icon/noSmoke.png" alt="No smoke"></img>
+									<img class="room__bar__icon" src="./assets/icon/bar.png" alt="Bar"></img>
+							</div>
+							<div class="room-home__img"  style="background-image: url(./assets/img/rooms/whiteRoom.jpg)"></div>
+						</div>
+						<div class="room-home__info room-home__info--related">
+							<div class="room-home__info__text">
+								<p class="room-home__info__text__title">Minimal Duplex Room</p>
+								<p class="room-home__info__text__description">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							<div class="room-home__info__price">
+								<span class="room-home__info__price__amount">$375</span>
+								<span class="room-home__info__price__night">/Night</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="room-home">
+						<div class="room-home__main-container">
+							<div class="room-home__bar room-home__bar--related">
+								<img class="room__bar__icon" src="./assets/icon/bed.png" alt="Bed"></img>
+									<img class="room__bar__icon" src="./assets/icon/wifi.png" alt="Wifi"></img>
+									<img class="room__bar__icon" src="./assets/icon/car.png" alt="Parking"></img>
+									<img class="room__bar__icon" src="./assets/icon/air.png"
+										alt="Air conditioning"></img>
+									<img class="room__bar__icon" src="./assets/icon/gym.png" alt="Gym"></img>
+									<img class="room__bar__icon" src="./assets/icon/noSmoke.png" alt="No smoke"></img>
+									<img class="room__bar__icon" src="./assets/icon/bar.png" alt="Bar"></img>
+							</div>
+							<div class="room-home__img"  style="background-image: url(./assets/img/rooms/blueRoom.jpg)"></div>
+						</div>
+						<div class="room-home__info room-home__info--related">
+							<div class="room-home__info__text">
+								<p class="room-home__info__text__title">Minimal Duplex Room</p>
+								<p class="room-home__info__text__description">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							<div class="room-home__info__price">
+								<span class="room-home__info__price__amount">$375</span>
+								<span class="room-home__info__price__night">/Night</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="room-home">
+						<div class="room-home__main-container">
+							<div class="room-home__bar room-home__bar--related">
+								<img class="room__bar__icon" src="./assets/icon/bed.png" alt="Bed"></img>
+									<img class="room__bar__icon" src="./assets/icon/wifi.png" alt="Wifi"></img>
+									<img class="room__bar__icon" src="./assets/icon/car.png" alt="Parking"></img>
+									<img class="room__bar__icon" src="./assets/icon/air.png"
+										alt="Air conditioning"></img>
+									<img class="room__bar__icon" src="./assets/icon/gym.png" alt="Gym"></img>
+									<img class="room__bar__icon" src="./assets/icon/noSmoke.png" alt="No smoke"></img>
+									<img class="room__bar__icon" src="./assets/icon/bar.png" alt="Bar"></img>
+							</div>
+							<div class="room-home__img" style="background-image: url(./assets/img/rooms/beigeRoom.jpg)"></div>
+						</div>
+						<div class="room-home__info room-home__info--related">
+							<div class="room-home__info__text">
+								<p class="room-home__info__text__title">Minimal Duplex Room</p>
+								<p class="room-home__info__text__description">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+							</div>
+							<div class="room-home__info__price">
+								<span class="room-home__info__price__amount">$375</span>
+								<span class="room-home__info__price__night">/Night</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper__buttons swiper__buttons--related">
+				<div class="swiper-button">
+					<div class="swiper-button--prev">
+						<img src="./assets/icon/chevron-left.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-button">
+					<div class="swiper-button--next">
+						<img src="./assets/icon/chevron-right.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+  <!-- *** Footer *** -->  
+ <footer class="footer">
+		<div class="footer__content" style="background-image: url(./assets/img/bgFooter.svg)">
+
+			<div class="footer__description">
+				<div class="logo">
+					<div class="logo__back">
+						<p class="logo__letter">H</p>
+					</div>
+					<div class="logo__text">
+						<span>HOTEL</span>
+						<br>
+						MIRANDA
+					</div>
+				</div>
+
+				<p class="footer__description__text">
+					Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed
+					doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+					nostrud exercitat ion ullamco laboris nisi.
+				</p>
+				<div class="footer__description__social-media">
+					<a href="https://es-es.facebook.com/" target="_blank" class="social-media-link">
+						<img class="social-media-link__icon" src="./assets/icon/facebook.png" alt="Facebook icon">
+					</a>
+					<a href="https://twitter.com/?lang=efa" target="_blank" class="social-media-link">
+						<img class="social-media-link__icon" src="./assets/icon/twitter.svg" alt="Twitter icon">
+					</a>
+					<a href="https://www.behance.net/" target="_blank" class="social-media-link">
+						<img class="social-media-link__icon" src="./assets/icon/Be.png" alt="Behance icon">
+					</a>
+					<a href="https://es.linkedin.com/" target="_blank" class="social-media-link">
+						<img class="social-media-link__icon" src="./assets/icon/linkedin.png" alt="Linkedin icon">
+					</a>
+					<a href="https://www.youtube.com/" target="_blank" class="social-media-link">
+						<img class="social-media-link__icon" src="./assets/icon/youtube.png" alt="Youtube icon">
+					</a>
+				</div>
+			</div>
+
+			<div class="footer__services">
+				<p class="footer__services__title">Services.</p>
+				<div class="footer__services__container">
+					<div class="footer__services__column">
+						<p class="footer__services__text">+ Resturent & Bar</p>
+						<p class="footer__services__text">+ Swimming Pool</p>
+						<p class="footer__services__text">+ Wellness & Spa</p>
+						<p class="footer__services__text">+ Restaurant</p>
+						<p class="footer__services__text">+ Conference Room</p>
+						<p class="footer__services__text">+ Coctail Party House</p>
+					</div>
+					<div class="footer__services__column">
+						<p class="footer__services__text">+ Gaming Zone</p>
+						<p class="footer__services__text">+ Marrige Party</p>
+						<p class="footer__services__text">+ Party Planning</p>
+						<p class="footer__services__text">+ Tour Consultancy</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__contact">
+				<p class="footer__contact__title">Contact us.</p>
+
+				<div class="footer__contact__container">
+					<img class="footer__contact__img" src="./assets/icon/phone2.png" alt="Phone">
+					<div class="footer__contact__data">
+						<p class="footer__contact__data__title">Phone number</p>
+						<p class="footer__contact__data__text">+987 876 765 76 577</p>
+					</div>
+				</div>
+
+				<div class="footer__contact__container">
+					<img class="footer__contact__img" src="./assets/icon/notificacion.png" alt="Email">
+					<div class="footer__contact__data">
+						<p class="footer__contact__data__title">Phone number</p>
+						<p class="footer__contact__data__text">+987 876 765 76 577</p>
+					</div>
+				</div>
+
+				<div class="footer__contact__container">
+					<img class="footer__contact__img" src="./assets/icon/maps.png" alt="Address">
+					<div class="footer__contact__data">
+						<p class="footer__contact__data__title">Phone number</p>
+						<p class="footer__contact__data__text">+987 876 765 76 577</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="footer__copyright">
+			<p class="footer__copyright__copy footer__copyright__text">Copyright By <a
+					href="https://www.linkedin.com/in/noe-sola/">Noe Sola-2023</a></p>
+			<div class="footer__copyright__links">
+				<a class="footer__copyright__text footer__copyright__link" href="#">Terms of use</a>
+				<p class="footer__copyright__text">|</p>
+				<a class="footer__copyright__text footer__copyright__link" href="#">Privacy Environmental Policy</a>
+			</div>
+		</div>
+	</footer>
+	<!-- <---- Footer ---->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script type="module" src="/Js/index.js"></script>
+	<script type="module" src="./Js/swiper/swiper.js"></script>
+	<script type="module" src="./Js/swiper/facilities.js"></script>
+	<script type="module" src="/Js/swiper/roomsSwiper.js"></script>                       
 </body>
 
 </html>
