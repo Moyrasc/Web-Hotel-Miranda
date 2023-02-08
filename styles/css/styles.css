@@ -13,6 +13,7 @@
   --lightGrey: #F9F9F9;
   --greyText: #c2c2c2;
   --greyStats: #999999;
+  --redOffers: #DE5777;
   --fontArchivo: Archivo, sans-serif;
   --fontOld: Old Standard TT, serif;
   --fontRoboto: Roboto, sans-serif;
@@ -114,6 +115,10 @@
 }
 .header__container__content .navbar__container .nav__links .nav__menu__links__home__text span {
   font-weight: 700;
+}
+.header__container__content .navbar__container .nav__links .nav__menu__links__home__text a {
+  text-decoration: none;
+  color: #111111;
 }
 .header__container__content .navbar__container .nav__links .nav__menu__links__desktop {
   display: none;
