@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Old+Standard+TT&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet" />
-    <link href="./styles/css/styles.css" rel="stylesheet" />
-    <title>Hotel Miranda</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Old+Standard+TT&family=Roboto:wght@400;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link href="./styles/css/styles.css" rel="stylesheet" />
+	<title>Hotel Miranda</title>
 </head>
 
 <body>
-    <!-- <---- Header ----> -->
+	<!-- <---- Header ----> -->
 	<header class="header__container">
 		<div class="header__container__content">
 			<div class="navbar__container">
@@ -41,9 +42,9 @@
 								MIRANDA
 							</div>
 						</div>
-                    </div>
-                </div>
-                <div class="navbar__container__icon">
+					</div>
+				</div>
+				<div class="navbar__container__icon">
 					<div class="navbar__container__icon__container login">
 						<img src="./assets/icon/user.png" alt="User icon">
 					</div>
@@ -51,81 +52,273 @@
 						<img src="./assets/icon/search1.png" alt="Search icon">
 					</div>
 				</div>
-            </div>
-        </div>
-    </header>
-<!-- <---- Header ----> -->
-<!-- UPPER -->
-<section class="upper-section">
-        <div class="upper-section__content">
-            <h3 class="upper-section__title">
-                The ultimate luxury experience
-            </h3>
+			</div>
+		</div>
+	</header>
+	<!-- <---- Header ----> -->
+	<!-- UPPER -->
+	<section class="upper-section">
+		<div class="upper-section__content">
+			<h3 class="upper-section__title">
+				The ultimate luxury experience
+			</h3>
 
-            <h2 class="upper-section__description">
-                About Us
-            </h2>
-            <div class="upper-section__links">
-                <a href="/">Home</a>
-                <span>|</span>
-                <a class="upper-section__links--about" href="/about.html">About</a>
-            </div>
-        </div>
-    </section>
+			<h2 class="upper-section__description">
+				About Us
+			</h2>
+			<div class="upper-section__links">
+				<a href="/">Home</a>
+				<span>|</span>
+				<a class="upper-section__links--about" href="/about.html">About</a>
+			</div>
+		</div>
+	</section>
 	<!-- UPPER  -->
 	<!-- VIDEO  -->
 	<section class="video-about">
-		
-				<video class="video-about__source" controls>
-					<source class="" src="./assets/video/hotel.mp4" type="video/mp4" autoplay />
-				</video>
-				
+
+		<video class="video-about__source" controls>
+			<source class="" src="./assets/video/hotel.mp4" type="video/mp4" autoplay />
+		</video>
+
 		<p class="video-about__p">
-            Hello. Our hotel has been present for over 20 years. We make the best for all our customers.
-        </p>
+			Hello. Our hotel has been present for over 20 years. We make the best for all our customers.
+		</p>
 	</section>
 	<!-- VIDEO  -->
 	<!-- ICONS  -->
 	<section class="icons-about">
 		<div class="icons--display">
-            <div class="icons__service">
-                <div class="icons__service__img" style="background-image: url(./assets/icon/breakfast.png)"></div>
-                <p class="icons__service__title">BREAKFAST</p>
-            </div>
-            <div class="icons__service">
-                <div class="icons__service__img icons__service__img--aeroplane" style="background-image: url(./assets/icon/aeroplanet.png)"></div>
-                <p class="icons__service__title">AIRPORT PICKUP</p>
-            </div>
-            <div class="icons__service">
-                <div class="icons__service__img" style="background-image: url(./assets/icon/locationAbout.svg)"></div>
-                <p class="icons__service__title">CITY GUIDE</p>
-            </div>
-            <div class="icons__service">
-                <div class="icons__service__img" style="background-image: url(./assets/icon/luxury_room.svg)"></div>
-                <p class="icons__service__title">LUXURY ROOM</p>
-            </div>
-        </div>
+			<div class="icons__service">
+				<div class="icons__service__img" style="background-image: url(./assets/icon/breakfast.png)"></div>
+				<p class="icons__service__title">BREAKFAST</p>
+			</div>
+			<div class="icons__service">
+				<div class="icons__service__img icons__service__img--aeroplane"
+					style="background-image: url(./assets/icon/aeroplanet.png)"></div>
+				<p class="icons__service__title">AIRPORT PICKUP</p>
+			</div>
+			<div class="icons__service">
+				<div class="icons__service__img" style="background-image: url(./assets/icon/locationAbout.svg)"></div>
+				<p class="icons__service__title">CITY GUIDE</p>
+			</div>
+			<div class="icons__service">
+				<div class="icons__service__img" style="background-image: url(./assets/icon/luxury_room.svg)"></div>
+				<p class="icons__service__title">LUXURY ROOM</p>
+			</div>
+		</div>
 	</section>
 	<!-- ICONS  -->
-	 <!-- RESTAURANT -->
+	<!-- RESTAURANT -->
 	<section class="restaurant">
-        <div class="restaurant__card">
-            <div class="restaurant__img--container">
-                <div class="restaurant__img" style="background-image: url(./assets/img/restaurant.jpg)"></div>
-            </div>
-            <div class="restaurant__info">
-                <p class="restaurant__title--small">RESTAURANT</p>
-                <p class="restaurant__title">Get Restaurant Facilities & Many Other More</p>
-                <p class="restaurant__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tem por incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                <button class="btn--gold">TAKE A TOUR</button>
-            </div>
-        </div>
-    </section>
-<!-- RESTAURANT -->
- <!-- <---- Footer ----> 
-<footer class="footer">
+		<div class="restaurant__card">
+			<div class="restaurant__img--container">
+				<div class="restaurant__img" style="background-image: url(./assets/img/restaurant.jpg)"></div>
+			</div>
+			<div class="restaurant__info">
+				<p class="restaurant__title--small">RESTAURANT</p>
+				<p class="restaurant__title">Get Restaurant Facilities & Many Other More</p>
+				<p class="restaurant__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+					eiusmod tem por incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+				<button class="btn--gold">TAKE A TOUR</button>
+			</div>
+		</div>
+	</section>
+	<!-- RESTAURANT -->
+	<section class="facilitiess facilitiess--dark">
+
+		<h5 class="facilitiess__title--h5">FACILITIES</h5>
+		<h2 class="facilitiess__title">Core Features</h2>
+
+
+		<div class="swiper-facilities">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/stars.png" alt="Rating">
+						<div class="cards__imgs-background cards__imgs-background--dark">01</div>
+						<p class="cards__title">Have High Rating</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/clock.png" alt="Clock">
+						<div class="cards__imgs-background cards__imgs-background--dark">02</div>
+						<p class="cards__title">Quiet Hours</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/location.svg" alt="Location">
+						<div class="cards__imgs-background cards__imgs-background--dark">03</div>
+						<p class="cards__title">Best Locations</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/cancellation.png" alt="Cancellation">
+						<div class="cards__imgs-background cards__imgs-background--dark">04</div>
+						<p class="cards__title">Free Cancellation</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/payment.svg" alt="Payment">
+						<div class="cards__imgs-background cards__imgs-background--dark">05</div>
+						<p class="cards__title">Payment Options</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/offers.svg" alt="Offers">
+						<div class="cards__imgs-background cards__imgs-background--dark">06</div>
+						<p class="cards__title">Special Offers</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-facilities__pagination"></div>
+		</div>
+		<div class="grid-facilities">
+			<div class="cards cards--dark">
+				<img class="cards__imgs" src="./assets/icon/stars.png" alt="Rating">
+				<div class="cards__imgs-background cards__imgs-background--dark">01</div>
+					<p class="cards__title">Have High Rating</p>
+					<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+			</div>
+			<div class="cards cards--dark">
+				<img class="cards__imgs" src="./assets/icon/clock.png" alt="Clock">
+				<div class="cards__imgs-background cards__imgs-background--dark">02</div>
+					<p class="cards__title">Quiet Hours</p>
+					<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+			</div>
+			<div class="cards cards--dark">
+				<img class="cards__imgs" src="./assets/icon/location.svg" alt="Location">
+				<div class="cards__imgs-background cards__imgs-background--dark">03</div>
+					<p class="cards__title">Best Locations</p>
+					<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+			</div>
+			<div class="cards cards--dark">
+				<img class="cards__imgs" src="./assets/icon/cancellation.png" alt="Cancellation">
+				<div class="cards__imgs-background cards__imgs-background--dark">04</div>
+					<p class="cards__title">Free Cancellation</p>
+					<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+			</div>
+			<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/payment.svg" alt="Payment">
+						<div class="cards__imgs-background cards__imgs-background--dark">05</div>
+						<p class="cards__title">Payment Options</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+			</div>
+			<div class="cards cards--dark">
+						<img class="cards__imgs" src="./assets/icon/offers.svg" alt="Offers">
+						<div class="cards__imgs-background cards__imgs-background--dark">06</div>
+						<p class="cards__title">Special Offers</p>
+						<p class="cards__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do
+							eiusmod
+							tempor incididunt ut labore et dolore magna..</p>
+			</div>
+		</div>
+	</section>
+	<!-- <---- Counter ---->
+	<section class="counter">
+		<h5 class="counter__title--h5">COUNTER</h5>
+		<h2 class="counter__title">Some Fun Facts</h2>
+		<div class="counter__cards">
+			<div class="counter__card">
+				<div class="main-container">
+					<img src="./assets/icon/happy.png" alt="Happy users">
+					<div class="main-container__info">
+						<p class="amount">8000</p>
+						<p class="fact">Happy Users</p>
+					</div>
+				</div>
+				<img class="arrow-icon" src="./assets/icon/arrow-menu.svg" alt="Arrow">
+			</div>
+			<div class="counter__card">
+				<div class="main-container">
+					<img src="./assets/icon/fingerUp.png" alt="Reviews">
+					<div class="main-container__info">
+						<p class="amount">10M</p>
+						<p class="fact">Reviews & Appriciate</p>
+					</div>
+				</div>
+				<img class="arrow-icon" src="./assets/icon/arrow-menu.svg" alt="Arrow">
+			</div>
+			<div class="counter__card">
+				<div class="main-container">
+					<img src="./assets/icon/earth.png" alt="Coverage">
+					<div class="main-container__info">
+						<p class="amount">100</p>
+						<p class="fact">Country Coverage</p>
+					</div>
+				</div>
+				<img class="arrow-icon" src="./assets/icon/arrow-menu.svg" alt="Arrow">
+			</div>
+		</div>
+
+		<div class="swiper-counter">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<img src="./assets/img/hotelBali.jpg" alt="Hotel" ">
+                </div>
+                <div class=" swiper-slide">
+
+					<img src="./assets/img/hotel2.jpg" alt="Hotel">
+				</div>
+			</div>
+
+			<div class="swiper-counter-pagination"></div>
+		</div>
+
+		<div class="counter__images">
+			<img src="./assets/img/hotelBali.jpg" alt="Hotel">
+			<img src="./assets/img/hotel2.jpg" alt="Hotel">
+		</div>
+	</section>
+	<!-- <---- Footer ---->
+	<footer class="footer">
 		<div class="footer__content" style="background-image: url(./assets/img/bgFooter.svg)">
 
 			<div class="footer__description">
@@ -224,7 +417,11 @@
 			</div>
 		</div>
 	</footer>
-<!-- <---- Footer ---->	                        
+	<!-- <---- Footer ---->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script type="module" src="/Js/index.js"></script>
+	<script type="module" src="./Js/swiper/facilities.js"></script>
+	<script type="module" src="./Js/swiper/counterSwiper.js"></script>
 </body>
 
 </html>
