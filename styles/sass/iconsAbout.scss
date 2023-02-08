@@ -1,0 +1,51 @@
+.icons {
+    padding: 0 20px;
+    margin: auto;
+
+    &--display {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px 0;
+    }
+
+    &__service {
+        width: 140px;
+        height: 140px;
+        padding: 40px 0;
+        margin: auto;
+        &__img {
+            color: #{$gold};
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 58px;
+            height: 50px;
+            margin: auto auto 13px auto;
+            &--aeroplane {
+                filter: invert(0.45) sepia(1);
+            }
+        }
+
+        &__title {
+            font-family: #{$fontArchivo};
+            font-weight: 700;
+            font-size: 12px;
+            text-align: center;
+            letter-spacing: 2px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &:hover {
+            background-color:  #{$gold};
+            .icons__service__img {
+                filter: brightness(0) invert(1);
+            }
+            .icons__service__title {
+                color: #{$white};
+            }
+        }
+
+    }
+}
