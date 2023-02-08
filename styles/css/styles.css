@@ -1146,6 +1146,108 @@
   display: none;
 }
 
+.contact {
+  padding: 20px;
+}
+.contact_info_container .card {
+  position: relative;
+  padding: 50px 15px 0 15px;
+  height: 235px;
+  max-width: 400px;
+  margin: auto;
+}
+.contact_info_container .card .info-container {
+  display: flex;
+  align-items: flex-start;
+}
+.contact_info_container .card .info-container__img {
+  margin: 0px 0 0 0;
+}
+.contact_info_container .card .info-container .text-container {
+  padding-left: 27px;
+  max-width: 200px;
+}
+.contact_info_container .card .info-container .text-container__title {
+  font-family: Old Standard TT, serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.contact_info_container .card .info-container .text-container__description {
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
+.contact_info_container .card .info-container .text-container__description a {
+  font-family: Archivo, sans-serif;
+  font-size: 14px;
+  color: #777777;
+  text-decoration: none;
+}
+.contact_info_container .card__img-background {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  font-family: Archivo, sans-serif;
+  font-size: 200px;
+  color: #777777;
+  opacity: 4%;
+  font-weight: 700;
+}
+.contact_form {
+  padding: 60px 20px 30px 20px;
+}
+.contact_form .form--column {
+  margin: auto;
+}
+.contact_form .form__container__input {
+  position: relative;
+  margin: 15px 0;
+}
+.contact_form .form__input {
+  border: none;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 20px 25px 20px 60px;
+  background-color: #F8F8F8;
+  font-family: Archivo, sans-serif;
+  color: #777777;
+  width: 100%;
+}
+.contact_form .form__icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.contact_form .form__icon--user {
+  filter: invert(0.6) sepia(1);
+  width: 16px;
+}
+.contact_form .form__button {
+  margin: 1.5rem 0rem;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  height: 50px;
+  width: 220px;
+}
+.contact_form textarea {
+  height: 175px;
+}
+.contact_form .button__container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.contact_map .map__container {
+  display: flex;
+  justify-content: center;
+}
+
 html,
 * {
   box-sizing: border-box;
