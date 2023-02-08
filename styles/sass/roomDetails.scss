@@ -1,0 +1,164 @@
+.room-details {
+    padding: 48px 20px 60px 20px;
+
+    &__info {
+        &__title {
+            font-family: #{$fontOld};
+            font-size: 30px;
+            font-weight: 400;
+            color: #{$darkBlack};
+            margin-bottom: 16px;
+
+            &--h5 {
+                font-family: #{$fontArchivo};
+                font-size: 14px;
+                color: #{$footerGray};
+                margin-bottom: 12px;
+                letter-spacing: 2px;
+            }
+        }
+
+        &__price {
+            font-family: #{$fontArchivo};
+            color: #{$gold};
+            font-weight: 700;
+            margin-bottom: 16px;
+            &__amount {
+                font-size: 32px;
+            }
+            &__night {
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    &__image {
+        width: 100%;
+
+        &__container {
+            max-width: 400px;
+            margin: auto auto 50px auto;
+        }
+    }
+
+    &__availability {
+        font-family: #{$fontArchivo};
+        padding: 0 20px;
+
+        &__title {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 36px;
+            font-weight: 700;
+        }
+
+        &__label {
+            font-size: 14px;
+            margin-bottom: 13px;
+            font-weight: 700;
+        }
+
+        &__input {
+            width: 100%;
+            height: 60px;
+            background-color: #{$softGrey};
+            color: #{$footerGray};
+            padding: 0 10%;
+            &::-webkit-calendar-picker-indicator {
+                filter: invert(49%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(90%) contrast(95%);
+                -webkit-filter: invert(49%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(90%) contrast(95%);
+            }
+        }
+
+        .button--gold {
+            border: none;
+            margin: 1.5rem 0rem;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            color: #{$white};
+            background-color: #{$gold};
+            height: 50px;
+            width: 240px;
+            margin-bottom: 48px;
+        }
+    }
+
+    &__description {
+        font-family: #{$fontRoboto};
+        font-size: 14px;
+        color: #{$footerGray};
+        line-height: 24px;
+    }
+}
+// founder block
+.founder {
+    padding: 0 20px;
+    &__card {
+        padding: 60px 20px 40px 20px;
+        max-width: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &__avatar {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            margin-bottom: 38px;
+
+            &__image {
+                width: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            &__check {
+                width: 46px;
+                height: 46px;
+                padding: 10px;
+                position: absolute;
+                background-color: #{$gold};
+                border: 3px solid #{$white};
+                border-radius: 50%;
+                top: 0;
+                right: 0;
+            }
+        }
+
+        &__name {
+            font-family: #{$fontOld};
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        &__position {
+            font-family: #{$fontArchivo};
+            font-size: 14px;
+            color: #{$darkGold};
+            margin-bottom: 25px;
+        }
+        &__description {
+            font-family: #{$fontArchivo};
+            font-size: 16px;
+            color: #{$footerGray};
+        }
+    }
+}
+//Cancellation
+
+.cancellation {
+    padding: 63px 20px 100px 20px;
+
+    &__title {
+        font-family: #{$fontOld};
+        font-size: 30px;
+        color: #{$darkBlack};
+        margin-bottom: 47px;
+    }
+
+    &__description {
+        font-family: #{$fontRoboto};
+        font-size: 16px;
+        color: #{$footerGray};
+    }
+}
