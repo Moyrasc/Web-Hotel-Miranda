@@ -1510,12 +1510,74 @@
   font-family: Old Standard TT, serif;
   font-size: 30px;
   color: #222222;
-  margin-bottom: 47px;
+  margin-bottom: 11px;
+}
+.cancellation hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 35px;
 }
 .cancellation__description {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: #777777;
+}
+
+.related-rooms {
+  padding: 0 20px;
+}
+.related-rooms__title {
+  font-family: Old Standard TT, serif;
+  font-size: 30px;
+  color: #222222;
+  margin-bottom: 11px;
+}
+.related-rooms hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 35px;
+}
+.related-rooms .swiper__buttons {
+  display: flex;
+  position: absolute;
+  top: 7rem;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+}
+.related-rooms .swiper-button {
+  width: 32px;
+  height: 32px;
+  padding: 12px;
+  padding: 6px 1px 5px 15px;
+  background-color: #FFFFFF;
+}
+.related-rooms .swiper-button--next {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.related-rooms .swiper-button--prev {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.related-rooms .swiper-button:hover {
+  background-color: #BEAD8E;
+}
+.related-rooms .swiper-button:hover .swiper-button--next, .related-rooms .swiper-button:hover .swiper-button--prev {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.room-home__bar--related {
+  top: 14rem;
+  left: 14px;
+}
+.room-home__info--related {
+  margin-top: 1rem;
 }
 
 .amenities {
