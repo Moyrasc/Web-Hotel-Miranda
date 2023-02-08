@@ -104,7 +104,7 @@
          &__icon {
             display: flex;
             align-items: center;
-            margin-right: 1.5rem;
+            // margin-right: 1.5rem;
 
             &__container {
                display: flex;
@@ -112,6 +112,7 @@
                justify-content: center;
                img {
                   width: 20px;
+                  margin-right: 12px;
                }
             }
             .user {
