@@ -43,6 +43,7 @@
                      a {
                         text-decoration: none;
                         color: inherit;
+                        
                      }
                   }
                }
@@ -90,9 +91,14 @@
                      display: block;
                      margin-top: 1.4rem;
                      font-size: 13px;
-                     span {
+                     & span {
                         font-weight: 700;
+                        
                      }
+                     & a {
+                              text-decoration: none;
+                              color: #111111;
+                        }
                   }
                }
                &__desktop {
