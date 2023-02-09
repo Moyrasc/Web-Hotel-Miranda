@@ -268,6 +268,7 @@
 }
 .footer__copyright a {
   text-decoration: none;
+  color: #333333;
 }
 
 .ultimate-section {
@@ -276,6 +277,7 @@
 .ultimate-section__content {
   padding: 75px 20px;
   background-color: #333333;
+  width: 100vw;
 }
 .ultimate-section__title {
   width: 15rem;
@@ -315,6 +317,32 @@
   background-color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .ultimate-section {
+    display: flex;
+  }
+  .ultimate-section__content {
+    width: 100vw;
+    padding: 8rem;
+  }
+  .ultimate-section__title {
+    width: 20rem;
+  }
+  .ultimate-section__description {
+    font-size: 56px;
+    max-width: 25rem;
+    margin-bottom: 35px;
+  }
+  .ultimate-section__buttons {
+    flex-direction: row;
+  }
+  .ultimate-section__buttons__btn {
+    margin-right: 20px;
+  }
+  .ultimate-section__links {
+    right: 15%;
+  }
+}
 .availability {
   display: flex;
   flex-direction: column;
@@ -365,6 +393,23 @@
   margin-bottom: 1rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .availability {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem 2rem 8rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .availability__date__container {
+    display: flex;
+    gap: 30px;
+    width: 55%;
+  }
+  .availability__date {
+    width: 100%;
+  }
+}
 .about {
   margin-top: 60px;
 }

@@ -1,8 +1,10 @@
 .ultimate-section{
     display: flex;
+    
     &__content {
         padding: 75px 20px;
         background-color: #{$black};
+        width: 100vw;
     }
     &__title {
         width: 15rem;
@@ -43,4 +45,33 @@
     }
     }
     
+}
+@media only screen and (min-width: 1000px) {
+    .ultimate-section {
+        display: flex;
+        &__content {
+            width: 100vw;
+            padding: 8rem;
+        }
+
+        &__title {
+            width: 20rem;
+        }
+
+        &__description {
+            font-size: 56px;
+            max-width: 25rem;
+            margin-bottom: 35px;
+        }
+        &__buttons{
+            flex-direction: row;
+            &__btn{
+                margin-right: 20px;
+            }
+        }
+
+        &__links{
+            right: 15%;
+        }
+    }
 }
