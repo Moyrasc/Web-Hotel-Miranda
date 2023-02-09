@@ -1,0 +1,46 @@
+.popular {
+   padding: 48px 20px;
+   background-color:  #{$blackFull};
+   width: 100%;
+   &__titles {
+      margin: 20px auto;
+      height: 50px;
+      text-align: center;
+      &__title {
+         font-family:  #{$fontOld};
+         font-size: 40px;
+         color:  #{$white};
+         margin-bottom: 50px;
+      }
+      &__subtitle {
+         font-family: #{$fontArchivo};
+         font-size: 14px;
+         color: #{$gold};
+         text-transform: uppercase;
+         margin-bottom: 25px;
+      }
+   }
+   .room {
+      &__container {
+         max-width: 350px;
+         margin: 50px auto;
+      }
+      &__content {
+         padding: 30px;
+         position: relative;
+         width: 100%;
+         margin: auto;
+
+         &--offer {
+            background-color: #{$white};
+         }
+      }
+      &__bar {
+         position: relative;
+        //  top: -20px;
+         left: -20px;
+         right: 0;
+         bottom: 50px;
+      }
+   }
+}
