@@ -886,7 +886,7 @@
   width: 100px;
   height: 110px;
   top: 0;
-  right: -2px;
+  right: -20px;
 }
 .menu__title {
   font-size: 56px;
@@ -965,6 +965,50 @@
   filter: brightness(0) invert(1);
 }
 
+@media only screen and (min-width: 1000px) {
+  .menu {
+    padding: 100px 275px 120px 175px;
+  }
+  .menu__img {
+    width: 130px;
+    height: 130px;
+    left: 20px;
+  }
+  .menu__title {
+    font-size: 50px;
+    margin-bottom: 45px;
+  }
+  .menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food {
+    margin-bottom: 20px;
+    width: 570px;
+  }
+  .menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__text {
+    max-width: 480px;
+    padding-top: 15px;
+  }
+  .menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food__text__description {
+    width: 285px;
+  }
+  .menu .swiper-menu .swiper-wrapper .swiper-slide .swiper-foods__column .food:hover .food__arrow {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+  .menu .swiper-menu-buttons {
+    position: relative;
+    top: -32rem;
+    right: -10rem;
+  }
+  .menu .swiper-menu__button {
+    width: 70px;
+    height: 70px;
+    padding: 25px 30px;
+  }
+  .menu .swiper-menu__button img {
+    width: 10px;
+    height: 20px;
+  }
+}
 .swiper-menu-images {
   margin: 5rem auto;
   overflow: hidden;
@@ -990,6 +1034,15 @@
   background-color: #BEAD8E;
 }
 
+@media only screen and (min-width: 1000px) {
+  .swiper-menu-images {
+    margin: 5rem 10% 120px 10%;
+    overflow: hidden;
+  }
+  .swiper-menu-images .swiper-wrapper .swiper-slide .image__container {
+    transform: translateX(-10%);
+  }
+}
 .stats-container {
   padding: 3rem 0rem;
   background-color: #222222;

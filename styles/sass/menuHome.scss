@@ -7,7 +7,7 @@
         width: 100px;
         height: 110px;
         top: 0;
-        right: -2px;
+        right: -20px;
     }
 
     &__title {
@@ -102,6 +102,64 @@
                 background-color: #{$gold};
                 img {
                     filter: brightness(0) invert(1);
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .menu {
+        padding: 100px 275px 120px 175px;
+
+        &__img {
+            width: 130px;
+            height: 130px;
+            left: 20px;
+        }
+        &__title {
+            font-size: 50px;
+            // max-width: 100%;
+            margin-bottom: 45px;
+        }
+        .swiper-menu {
+            .swiper-wrapper {
+                .swiper-slide {
+                    .swiper-foods__column {
+                        .food {
+                            margin-bottom: 20px;
+                            width: 570px;
+
+                            &__text {
+                                max-width: 480px;
+                                padding-top: 15px;
+
+                                &__description {
+                                    width: 285px;
+                                }
+                            }
+
+                            &:hover .food__arrow {
+                                display: inline-block;
+                                margin-left: 60px;
+                                margin-right: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+            &-buttons {
+                position: relative;
+                top: -32rem;
+                right: -10rem;
+            }
+
+            &__button {
+                width: 70px;
+                height: 70px;
+                padding: 25px 30px;
+                img {
+                    width: 10px;
+                    height: 20px;
                 }
             }
         }
