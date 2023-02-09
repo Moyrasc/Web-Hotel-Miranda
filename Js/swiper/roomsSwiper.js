@@ -3,10 +3,6 @@ const swiper = new Swiper(".swiper-room-list", {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 60,
-
-    // autoplay: {
-    //     delay: 5000,
-    // },
     navigation: {
         nextEl: '.swiper-button-room-list-next',
         prevEl: '.swiper-button-room-list-prev',

@@ -12,6 +12,12 @@ const swiper = new Swiper(".swiper", {
     slideNextClass: 'swiper-slide-next',
     slidePrevClass: 'swiper-slide-prev',
     breakpointsBase: 'container',
+    breakpoints: {
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 100,
+        }
+    },
     navigation: {
         nextEl: '.swiper-button--next',
         prevEl: '.swiper-button--prev',

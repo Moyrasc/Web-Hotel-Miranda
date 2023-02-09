@@ -127,3 +127,69 @@
         }
     }
 }
+@media only screen and (min-width: 1000px) {
+   .rooms {
+      padding: 0;
+
+      .swiper {
+         &-slide {
+            transform: translateX(-70px);
+         }
+         &__buttons {
+            width: 100%;
+            left: auto;
+            right: auto;
+            padding: 0 20%;
+         }
+         &-button {
+            width: 40px;
+            height: 40px;
+          
+         }
+      }
+   }
+}
+// @media only screen and (min-width: 1000px) {
+//     .room {
+//         &__img {
+//             width: 870px;
+//             height: 500px;
+//         }
+//         &__bar {
+//             width: 310px;
+//             height: 20px;
+//             &__icon {
+//                 width: 20px;
+//                 height: 15px;
+//             }
+//         }
+//         &__info {
+//             display: flex;
+//             width: 690px;
+//             height: 172px;
+//             text-align: start;
+//             padding: 38px 38px;
+//             margin: -3rem auto auto auto;
+//             z-index: 2;
+//             &__text {
+//                 text-align: start;
+//                 &__title {
+//                     font-size: 36px;
+//                 }
+//             }
+//             &__price {
+//                 margin: auto;
+//                 display: flex;
+//                 height: 40px;
+//                 align-items: flex-end;
+//                 &__amount {
+//                     font-size: 40px;
+//                 }
+//                 &__night {
+//                     font-size: 16px;
+//                     padding-bottom: 5px;
+//                 }
+//             }
+//         }
+//     }
+// }

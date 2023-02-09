@@ -14,6 +14,7 @@
   --greyText: #c2c2c2;
   --greyStats: #999999;
   --redOffers: #DE5777;
+  --goldHome: #AD9D82;
   --fontArchivo: Archivo, sans-serif;
   --fontOld: Old Standard TT, serif;
   --fontRoboto: Roboto, sans-serif;
@@ -503,6 +504,55 @@
   margin-top: -0.3rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .about {
+    padding: 120px 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .about__underground {
+    background-color: transparent;
+    position: relative;
+  }
+  .about__underground .desktop-background {
+    position: absolute;
+    left: -10rem;
+    top: 5.5rem;
+    height: 35rem;
+    background-color: #f9f9f9;
+    width: 50vw;
+    z-index: -1;
+  }
+  .about__underground__title {
+    margin-bottom: 20px;
+  }
+  .about__underground__title--h5 {
+    margin-bottom: 36px;
+  }
+  .about__underground__description {
+    font-family: Archivo, sans-serif;
+    font-size: 14px;
+  }
+  .about__cards {
+    display: flex;
+  }
+  .about__card {
+    margin: auto;
+  }
+  .about__card__img {
+    margin-bottom: 25px;
+  }
+  .about__card--team {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 30px;
+    margin-top: 0rem;
+  }
+  .about__card--room {
+    margin-top: 1rem;
+  }
+}
 .rooms {
   padding-top: 60px;
 }
@@ -622,6 +672,24 @@
   font-size: 13px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .rooms {
+    padding: 0;
+  }
+  .rooms .swiper-slide {
+    transform: translateX(-70px);
+  }
+  .rooms .swiper__buttons {
+    width: 100%;
+    left: auto;
+    right: auto;
+    padding: 0 20%;
+  }
+  .rooms .swiper-button {
+    width: 40px;
+    height: 40px;
+  }
+}
 .video-home {
   margin-top: 5rem;
 }
@@ -655,7 +723,11 @@
   margin-bottom: 22px;
   width: 100%;
 }
+.video-home__source--desktop {
+  display: none;
+}
 .video-home__source--mobile {
+  border: none;
   width: 100%;
   min-height: 270px;
   object-fit: cover;
@@ -670,7 +742,73 @@
   height: 50px;
   width: 220px;
 }
+.video-home__btn--gold--mobile {
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  height: 50px;
+  width: 220px;
+}
+.video-home__btn--desktop {
+  display: none;
+}
 
+@media only screen and (min-width: 1000px) {
+  .video-home {
+    position: relative;
+    margin-top: 7.5rem;
+    z-index: 1;
+  }
+  .video-home__container {
+    display: flex;
+    padding: 130px 20px 130px 60px;
+  }
+  .video-home__text {
+    padding: 0 10px 0 15px;
+    position: relative;
+  }
+  .video-home__text__title {
+    font-size: 50px;
+    margin-bottom: 32px;
+  }
+  .video-home__text__title--h5 {
+    margin-bottom: 36px;
+  }
+  .video-home__text__p {
+    line-height: 24px;
+  }
+  .video-home__btn--mobile {
+    display: none;
+  }
+  .video-home__btn--desktop {
+    display: block;
+    border: none;
+  }
+  .video-home__source {
+    z-index: 1;
+  }
+  .video-home__source--desktop {
+    display: block;
+    border: none;
+    width: 500px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  .video-home__source--mobile {
+    display: none;
+  }
+  .video-home__gold-rectangle {
+    position: absolute;
+    height: 100%;
+    width: 375px;
+    background-color: #AD9D82;
+    top: 0;
+    right: 0;
+  }
+}
 .facilities {
   padding: 60px 24px;
 }
@@ -1133,6 +1271,21 @@
   display: none;
 }
 
+@media only screen and (min-width: 1000px) {
+  .facilities__title {
+    margin-bottom: 60px;
+  }
+  .facilities .swiper-facilities {
+    display: none;
+  }
+  .facilities .grid-facilities {
+    display: grid;
+    padding: 0 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 3rem;
+  }
+}
 .counter {
   padding: 60px 20px 50px 20px;
 }

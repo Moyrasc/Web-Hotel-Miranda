@@ -14,6 +14,7 @@ $lightgrey: #F9F9F9;
 $greyText: #c2c2c2;
 $greyStats: #999999;
 $redOffers: #DE5777;
+$goldHome: #AD9D82;
 
 //Family-Fonts
 $fontArchivo: 'Archivo', sans-serif;
@@ -54,10 +55,13 @@ $sizeButton: 14px;
     --greyText: #{$greyText};
     --greyStats: #{$greyStats};
     --redOffers: #{$redOffers};
+    --goldHome: #{$goldHome};
+
     //family-fonts
     --fontArchivo: #{$fontArchivo};
     --fontOld: #{$fontOld};
     --fontRoboto: #{$fontRoboto};
+    
     //size-fonts
     --sizeP: #{$sizeP};
     --sizeTitle: #{$sizeTitle};

@@ -87,3 +87,21 @@
     }
     
 }
+@media only screen and (min-width: 1000px) {
+    .facilities {
+        &__title {
+            margin-bottom: 60px;
+        }
+        .swiper-facilities {
+            display: none;
+        }
+
+        .grid-facilities {
+            display: grid;
+            padding: 0 10%;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 30px 3rem;
+        }
+    }
+}
