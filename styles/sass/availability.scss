@@ -51,3 +51,23 @@
         
         }
 }
+
+@media only screen and (min-width: 1000px) {
+    .availability {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 2rem 2rem 8rem;
+        align-items: center;
+        justify-content: space-between;
+
+        &__date__container {
+            display: flex;
+            gap: 30px;
+            width: 55%;
+        }
+
+        &__date {
+            width: 100%;
+        }
+    }
+}

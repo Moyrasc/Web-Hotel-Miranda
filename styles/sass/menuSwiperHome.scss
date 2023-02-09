@@ -27,3 +27,17 @@
         background-color: #{$gold};
     }
 }
+@media only screen and (min-width: 1000px) {
+    
+        .swiper-menu-images {
+			margin: 5rem 10% 120px 10%;
+			overflow: hidden;
+            .swiper-wrapper {
+                .swiper-slide {
+                    .image__container {
+                        transform: translateX(-10%);
+                    }
+                }
+            }
+        }
+    }

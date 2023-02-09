@@ -30,16 +30,21 @@
     &__source {
         margin-bottom: 22px;
         width: 100%;
-        
+        &--desktop {
+        display: none;
+        }
         &--mobile {
+            border: none;
             width: 100%;
             min-height: 270px;
             object-fit: cover;
             border: none;
         }
+        
     }
     &__btn {
         &--gold {
+            &--mobile {
             border: none;
             font-weight: 700;
             letter-spacing: 0.2rem;
@@ -47,7 +52,81 @@
             background-color: #{$gold};
             height: 50px;
             width: 220px;
+            }
+            border: none;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            color: #{$white};
+            background-color: #{$gold};
+            height: 50px;
+            width: 220px;
+            
+        }
+        &--desktop {
+            display: none;
+            
         }
     }
     
+}
+@media only screen and (min-width: 1000px) {
+    .video-home {
+        position: relative;
+        margin-top: 7.5rem;
+        z-index: 1;
+        &__container {
+            display: flex;
+            padding: 130px 20px 130px 60px;
+        }
+        &__text {
+            padding: 0 10px 0 15px;
+            // width: 50%;
+            position: relative;
+            &__title {
+                font-size: 50px;
+                margin-bottom: 32px;
+                &--h5 {
+                    margin-bottom: 36px;
+                }
+            }
+            &__p {
+                line-height: 24px;
+            }
+        }
+        &__btn {
+            &--mobile {
+                display: none;
+            }
+            &--desktop {
+                display: block;
+                border: none;
+                
+                
+            }
+        }
+        &__source {
+            z-index: 1;
+            &--desktop {
+                display: block;
+                border: none;
+                width: 500px;
+                position: relative;
+                left: 20px;
+                top: 20px;
+                
+                
+            }
+            &--mobile {
+                display: none;
+            }
+        }
+        &__gold-rectangle {
+            position: absolute;
+            height: 100%;
+            width: 375px;
+            background-color: #{$goldHome};
+            top: 0;
+            right: 0;
+        }
+    }
 }
