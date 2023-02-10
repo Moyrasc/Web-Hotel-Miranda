@@ -2,8 +2,8 @@
    padding: 48px 20px 0 20px;
 
    .offer {
-		box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
-		margin-bottom: 35px;
+      box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
+      margin-bottom: 35px;
       &__image {
          position: relative;
          .image {
@@ -33,7 +33,7 @@
          &--total {
             font-size: 23px;
             padding-bottom: 10px;
-            color:#{$darkGold};
+            color: #{$darkGold};
          }
          &--discount {
             font-size: 30px;
@@ -42,9 +42,9 @@
       }
       &__text {
          padding: 16px 20px;
-			hr{
-				display: none;
-			}
+         hr {
+            display: none;
+         }
          &__subtitle {
             font-family: #{$fontArchivo};
             font-size: 14px;
@@ -63,100 +63,98 @@
 
          &__description {
             padding: 16px 0;
-            font-family:  #{$fontRoboto};
+            font-family: #{$fontRoboto};
             font-size: 14px;
             font-weight: 400;
             color: #{$footerGray};
             line-height: 24px;
-            
          }
       }
       &__amenities {
          display: grid;
          grid-template-columns: repeat(auto-fill, minmax(6rem, 0.6fr));
-			grid-auto-rows: 25px;
-			gap: 10px;
-			margin-bottom: 25px;
-			padding: 20px 0;
+         grid-auto-rows: 25px;
+         gap: 10px;
+         margin-bottom: 25px;
+         padding: 20px 0;
          &__item {
             display: flex;
-				align-items: center;
+            align-items: center;
          }
          .item {
             &__image {
-					height: 80%;
+               height: 80%;
             }
             &__text {
                padding: 8px;
-					font-family: #{$fontRoboto};
-					font-size: 14px;
-					color: #{$footerGray};
-					font-weight: 500;
+               font-family: #{$fontRoboto};
+               font-size: 14px;
+               color: #{$footerGray};
+               font-weight: 500;
             }
          }
       }
-		&__btn{
-			margin-bottom: 115px;
-            border: none;
-            font-weight: 700;
-            letter-spacing: 0.2rem;
-            color: #{$white};
-            background-color: #{$gold};
-            height: 50px;
-            width: 220px;
-		}
+      &__btn {
+         margin-bottom: 115px;
+         border: none;
+         font-weight: 700;
+         letter-spacing: 0.2rem;
+         color: #{$white};
+         background-color: #{$gold};
+         height: 50px;
+         width: 220px;
+      }
    }
 }
 @media only screen and (min-width: 1000px) {
-   .offers{
+   .offers {
       padding: 48px 15% 0 15%;
       .offer {
          position: relative;
          margin-bottom: 500px;
-         &__image{
-            .image{
+         &__image {
+            .image {
                height: 400px;
             }
          }
-         &__text{
-            padding-left:  60px;
+         &__text {
+            padding-left: 60px;
             width: 700px;
             position: absolute;
             left: 0;
             right: 0;
             margin: -45px auto auto auto;
             background-color: #{$white};
-            border-top: 6px solid #BEAD8E;
-            hr{
+            border-top: 6px solid #bead8e;
+            hr {
                display: block;
-               border: 1px solid #ECECEC;
+               border: 1px solid #ececec;
                margin: 40px 0 35px 0;
             }
-            &__titles{
+            &__titles {
                padding-top: 3rem;
             }
          }
-         &__prices{
+         &__prices {
             right: 40px;
             top: 30px;
          }
-         &__desc__amenities{
+         &__desc__amenities {
             display: flex;
          }
-         &__text__description{
+         &__text__description {
             width: 500px;
             padding-right: 10px;
          }
-         &__amenities{
+         &__amenities {
             width: 50%;
             padding-left: 16px;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
          }
-         &__btn{
+         &__btn {
             position: relative;
             bottom: 40px;
          }
       }
    }
-   
 }

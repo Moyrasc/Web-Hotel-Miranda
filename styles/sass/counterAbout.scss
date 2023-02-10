@@ -1,4 +1,3 @@
-
 .counter {
     padding: 60px 20px 50px 20px;
 
@@ -31,7 +30,7 @@
             &__info {
                 margin: 0 0 0 14px;
                 .amount {
-                    font-family:  #{$fontOld};
+                    font-family: #{$fontOld};
                     font-size: 60px;
                     letter-spacing: -1.8px;
                 }
@@ -45,7 +44,7 @@
     }
     .swiper-counter {
         overflow: hidden;
-		text-align: center;
+        text-align: center;
         .swiper-wrapper {
             img {
                 width: 335px;
@@ -81,9 +80,9 @@
             justify-content: space-evenly;
             padding: 0px 0px 60px 60px;
         }
-        &__card{
-            .main-container{
-                &__info{
+        &__card {
+            .main-container {
+                &__info {
                     padding-right: 1rem;
                 }
             }
@@ -91,7 +90,7 @@
         .swiper-counter {
             display: none;
         }
-        
+
         &__images {
             display: flex;
             justify-content: center;

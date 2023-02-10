@@ -1,6 +1,6 @@
-.ultimate-section{
+.ultimate-section {
     display: flex;
-    
+
     &__content {
         padding: 75px 20px;
         background-color: #{$black};
@@ -24,27 +24,26 @@
         margin-bottom: 40px;
         max-width: 20rem;
     }
-    &__buttons{
+    &__buttons {
         display: flex;
         flex-direction: column;
-        
-        &__btn{
-        font-weight: 700;
-        letter-spacing: 0.2rem;
-        font-family: #{$fontRoboto};
-        color: #{$white};
-        border: 1px solid #FFFFFF;
-        background-color: #{$black};
-        height: 50px;
-        margin-bottom: 1rem;
-        width: 200px;
+
+        &__btn {
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            font-family: #{$fontRoboto};
+            color: #{$white};
+            border: 1px solid #ffffff;
+            background-color: #{$black};
+            height: 50px;
+            margin-bottom: 1rem;
+            width: 200px;
+        }
+        .btn--gold {
+            border: none;
+            background-color: #{$gold};
+        }
     }
-    .btn--gold {
-        border: none;
-        background-color: #{$gold};
-    }
-    }
-    
 }
 @media only screen and (min-width: 1000px) {
     .ultimate-section {
@@ -63,14 +62,14 @@
             max-width: 25rem;
             margin-bottom: 35px;
         }
-        &__buttons{
+        &__buttons {
             flex-direction: row;
-            &__btn{
+            &__btn {
                 margin-right: 20px;
             }
         }
 
-        &__links{
+        &__links {
             right: 15%;
         }
     }

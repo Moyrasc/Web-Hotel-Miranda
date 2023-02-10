@@ -1,44 +1,34 @@
 // Colors
-$white:  #FFFFFF;
+$white: #ffffff;
 $black: #333333;
-$darkBlack:  #222222;
-$gold:#BEAD8E;
-$darkGold: #BDAC8D;
-$softGrey:#F8F8F8;
-$footerGray:#777777;
-$slider: #EDEDED;
+$darkBlack: #222222;
+$gold: #bead8e;
+$darkGold: #bdac8d;
+$softGrey: #f8f8f8;
+$footerGray: #777777;
+$slider: #ededed;
 $greyShadow: #8b8b8b;
 $blackFull: #000000;
 $greyInput: #686868;
-$lightgrey: #F9F9F9;
+$lightgrey: #f9f9f9;
 $greyText: #c2c2c2;
 $greyStats: #999999;
-$redOffers: #DE5777;
-$goldHome: #AD9D82;
+$redOffers: #de5777;
+$goldHome: #ad9d82;
 
 //Family-Fonts
-$fontArchivo: 'Archivo', sans-serif;
-$fontOld: 'Old Standard TT', serif;
-$fontRoboto: 'Roboto', sans-serif;
+$fontArchivo: "Archivo", sans-serif;
+$fontOld: "Old Standard TT", serif;
+$fontRoboto: "Roboto", sans-serif;
 
 //Font-Size
 $sizeP: 16px;
 $sizeTitle: 24px;
 $sizeH3: 26px;
-$sizeH2:56px;
+$sizeH2: 56px;
 $sizeButton: 14px;
 
-//mixins
-// @mixin btn($bg,$width){
-//     font-weight: 700;
-//     letter-spacing: 0.2rem;
-//     font-family: #{$fontRoboto};
-//     color: #{$white};
-//     width: $width;
-//     height: 60px;
-// }
-
-:root{
+:root {
     //colors
     --white: #{$white};
     --black: #{$black};
@@ -61,12 +51,11 @@ $sizeButton: 14px;
     --fontArchivo: #{$fontArchivo};
     --fontOld: #{$fontOld};
     --fontRoboto: #{$fontRoboto};
-    
+
     //size-fonts
     --sizeP: #{$sizeP};
     --sizeTitle: #{$sizeTitle};
     --sizeH3: #{$sizeH3};
-    --sizeH2:#{$sizeH2};
+    --sizeH2: #{$sizeH2};
     --sizeButton: #{$sizeButton};
-
 }

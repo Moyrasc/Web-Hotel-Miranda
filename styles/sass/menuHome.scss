@@ -28,8 +28,6 @@
         }
     }
     .swiper-menu {
-        // position: relative;
-        //   overflow: hidden;
         .swiper-wrapper {
             .swiper-slide {
                 .swiper-foods__column {
@@ -41,7 +39,7 @@
 
                         &__img {
                             width: 120px;
-                            // height: 120px;
+
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
@@ -78,10 +76,6 @@
             }
         }
         &-buttons {
-            // position: absolute;
-            // bottom: -30px;
-            // right: 0;
-            // margin: 0 20px;
             display: flex;
             gap: 16px;
             text-align: center;
@@ -118,7 +112,7 @@
         }
         &__title {
             font-size: 50px;
-            // max-width: 100%;
+
             margin-bottom: 45px;
         }
         .swiper-menu {

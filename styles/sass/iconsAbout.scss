@@ -35,7 +35,7 @@
         }
 
         &:hover {
-            background-color:  #{$gold};
+            background-color: #{$gold};
             .icons__service__img {
                 filter: brightness(0) invert(1);
             }
@@ -43,7 +43,6 @@
                 color: #{$white};
             }
         }
-
     }
 }
 @media only screen and (min-width: 1000px) {

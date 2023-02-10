@@ -1,12 +1,10 @@
 .stats {
-    // width: 100%;
     &-container {
         padding: 3rem 0rem;
         background-color: #{$darkBlack};
         margin-bottom: 3rem;
     }
     &__card {
-        // width: 210px;
         text-align: center;
         margin: 0 auto 60px auto;
         img {
@@ -32,23 +30,23 @@
     }
 }
 @media only screen and (min-width: 1000px) {
-   .stats {
-		padding: 0 10%;
-      &-container {
-         display: flex;
-         padding: 80px;
-         justify-content: space-between;
-         align-content: center;
-         height: 348px;
-         width: 100%;
-         &__card {
-            margin-top: auto;
-            text-align: start;
+    .stats {
+        padding: 0 10%;
+        &-container {
+            display: flex;
+            padding: 80px;
+            justify-content: space-between;
+            align-content: center;
+            height: 348px;
+            width: 100%;
+            &__card {
+                margin-top: auto;
+                text-align: start;
 
-            &--backers {
-               margin-right: 110px;
+                &--backers {
+                    margin-right: 110px;
+                }
             }
-         }
-      }
-   }
+        }
+    }
 }
