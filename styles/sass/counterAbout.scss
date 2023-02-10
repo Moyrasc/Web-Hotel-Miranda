@@ -65,3 +65,40 @@
         display: none;
     }
 }
+@media only screen and (min-width: 1000px) {
+    .counter {
+        padding: 120px 10%;
+
+        &__title {
+            max-width: 100%;
+            padding: 20px 75px;
+            &--h5 {
+                padding-left: 77px;
+            }
+        }
+        &__cards {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0px 0px 60px 60px;
+        }
+        &__card{
+            .main-container{
+                &__info{
+                    padding-right: 1rem;
+                }
+            }
+        }
+        .swiper-counter {
+            display: none;
+        }
+        
+        &__images {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 40%;
+                margin: 0 30px;
+            }
+        }
+    }
+}

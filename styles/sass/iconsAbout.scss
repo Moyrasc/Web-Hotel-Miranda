@@ -49,3 +49,12 @@
 
     }
 }
+@media only screen and (min-width: 1000px) {
+    .icons {
+        &--display {
+            display: flex;
+            justify-content: center;
+            padding: 0 9rem;
+        }
+    }
+}

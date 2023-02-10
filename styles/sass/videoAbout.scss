@@ -21,3 +21,27 @@
         padding: 0rem 1rem;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .video-about {
+        padding: 120px 10% 40px 10%;
+
+        &__source {
+            margin-bottom: 68px;
+            &--mobile {
+                display: none;
+            }
+            &--desktop {
+                display: block;
+            }
+        }
+        &__description{
+        font-size: 72px;
+        padding: 0 50px;
+    }
+    &__p{
+        font-size: 50px;
+        padding: 0rem 4rem;
+    }
+    }
+}

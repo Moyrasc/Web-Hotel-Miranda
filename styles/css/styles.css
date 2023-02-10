@@ -1197,6 +1197,28 @@
   padding: 0rem 1rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .video-about {
+    padding: 120px 10% 40px 10%;
+  }
+  .video-about__source {
+    margin-bottom: 68px;
+  }
+  .video-about__source--mobile {
+    display: none;
+  }
+  .video-about__source--desktop {
+    display: block;
+  }
+  .video-about__description {
+    font-size: 72px;
+    padding: 0 50px;
+  }
+  .video-about__p {
+    font-size: 50px;
+    padding: 0rem 4rem;
+  }
+}
 .icons {
   padding: 0 20px;
   margin: auto;
@@ -1244,6 +1266,13 @@
   color: #FFFFFF;
 }
 
+@media only screen and (min-width: 1000px) {
+  .icons--display {
+    display: flex;
+    justify-content: center;
+    padding: 0 9rem;
+  }
+}
 .restaurant {
   padding: 50px 20px 20px 20px;
 }
@@ -1297,6 +1326,27 @@
   margin-bottom: 1rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .restaurant {
+    padding: 0px 20px 65px 30px;
+  }
+  .restaurant__card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;
+    align-items: center;
+    box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
+    background: #ffffff;
+  }
+  .restaurant__img--container {
+    margin: 40px 30px;
+    width: 850px;
+    height: 330px;
+  }
+  .restaurant__info {
+    padding: 80px 20px;
+  }
+}
 .facilitiess {
   padding: 60px 24px;
 }
@@ -1365,10 +1415,10 @@
 .facilitiess .cards--dark {
   background-color: #292929;
 }
-.facilitiess .swiper-facilities {
+.facilitiess .swiper-facilitiess {
   overflow: hidden;
 }
-.facilitiess .swiper-facilities__pagination {
+.facilitiess .swiper-facilitiess__pagination {
   margin-top: 32px;
   display: flex;
   justify-content: center;
@@ -1380,6 +1430,21 @@
   display: none;
 }
 
+@media only screen and (min-width: 1000px) {
+  .facilitiess__title {
+    margin-bottom: 60px;
+  }
+  .facilitiess .swiper-facilitiess {
+    display: none;
+  }
+  .facilitiess .grid-facilitiess {
+    display: grid;
+    padding: 0 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 3rem;
+  }
+}
 @media only screen and (min-width: 1000px) {
   .facilities__title {
     margin-bottom: 60px;
@@ -1458,6 +1523,37 @@
   display: none;
 }
 
+@media only screen and (min-width: 1000px) {
+  .counter {
+    padding: 120px 10%;
+  }
+  .counter__title {
+    max-width: 100%;
+    padding: 20px 75px;
+  }
+  .counter__title--h5 {
+    padding-left: 77px;
+  }
+  .counter__cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 60px 60px;
+  }
+  .counter__card .main-container__info {
+    padding-right: 1rem;
+  }
+  .counter .swiper-counter {
+    display: none;
+  }
+  .counter__images {
+    display: flex;
+    justify-content: center;
+  }
+  .counter__images img {
+    width: 40%;
+    margin: 0 30px;
+  }
+}
 .contact {
   padding: 20px;
 }
