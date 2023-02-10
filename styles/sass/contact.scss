@@ -108,7 +108,40 @@
         .map__container{
         display: flex;
         justify-content: center;
+        &__img{
+            width: 280px;
+            height: 200px;
+        }
         
     }
 }
+}
+@media only screen and (min-width: 1000px) {
+   .contact {
+      &_info_container {
+         display: flex;
+         .card {
+            margin: auto;
+         }
+      }
+      &_map{
+        .map__container{
+            &__img{
+                width: 800px;
+                height: 400px;
+            }
+        }
+      }
+      &_form {
+			padding: 130px 15% 100px 15%;
+         .form {
+            display: flex;
+				justify-content: space-between;
+
+				&_column{
+					width: 49%;
+				}
+         }
+      }
+   }
 }

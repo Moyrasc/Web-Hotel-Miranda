@@ -1176,6 +1176,24 @@
   color: inherit;
 }
 
+@media only screen and (min-width: 1000px) {
+  .upper-section__content {
+    padding: 180px 20% 75px 20%;
+  }
+  .upper-section__title {
+    width: 20rem;
+  }
+  .upper-section__description {
+    font-size: 46px;
+  }
+  .upper-section__button {
+    display: inline;
+    margin-right: 30px;
+  }
+  .upper-section__links {
+    right: 15%;
+  }
+}
 .video-about__container {
   padding: 55px 20px;
   background-color: #222222;
@@ -1655,7 +1673,33 @@
   display: flex;
   justify-content: center;
 }
+.contact_map .map__container__img {
+  width: 280px;
+  height: 200px;
+}
 
+@media only screen and (min-width: 1000px) {
+  .contact_info_container {
+    display: flex;
+  }
+  .contact_info_container .card {
+    margin: auto;
+  }
+  .contact_map .map__container__img {
+    width: 800px;
+    height: 400px;
+  }
+  .contact_form {
+    padding: 130px 15% 100px 15%;
+  }
+  .contact_form .form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact_form .form_column {
+    width: 49%;
+  }
+}
 .rooms-list {
   display: block;
   position: relative;
