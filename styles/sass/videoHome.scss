@@ -31,7 +31,7 @@
         margin-bottom: 22px;
         width: 100%;
         &--desktop {
-        display: none;
+            display: none;
         }
         &--mobile {
             border: none;
@@ -40,18 +40,17 @@
             object-fit: cover;
             border: none;
         }
-        
     }
     &__btn {
         &--gold {
             &--mobile {
-            border: none;
-            font-weight: 700;
-            letter-spacing: 0.2rem;
-            color: #{$white};
-            background-color: #{$gold};
-            height: 50px;
-            width: 220px;
+                border: none;
+                font-weight: 700;
+                letter-spacing: 0.2rem;
+                color: #{$white};
+                background-color: #{$gold};
+                height: 50px;
+                width: 220px;
             }
             border: none;
             font-weight: 700;
@@ -60,14 +59,11 @@
             background-color: #{$gold};
             height: 50px;
             width: 220px;
-            
         }
         &--desktop {
             display: none;
-            
         }
     }
-    
 }
 @media only screen and (min-width: 1000px) {
     .video-home {
@@ -80,7 +76,7 @@
         }
         &__text {
             padding: 0 10px 0 15px;
-            // width: 50%;
+
             position: relative;
             &__title {
                 font-size: 50px;
@@ -100,8 +96,6 @@
             &--desktop {
                 display: block;
                 border: none;
-                
-                
             }
         }
         &__source {
@@ -113,8 +107,6 @@
                 position: relative;
                 left: 20px;
                 top: 20px;
-                
-                
             }
             &--mobile {
                 display: none;
