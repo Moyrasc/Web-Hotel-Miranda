@@ -110,7 +110,7 @@
          &__icon {
             display: flex;
             align-items: center;
-            // margin-right: 1.5rem;
+            
 
             &__container {
                display: flex;
@@ -128,3 +128,84 @@
       }
    }
 }
+@media only screen and (min-width: 1000px) {
+   .header__container {
+      height: 70px;
+      background-color: #{$darkBlack};
+      &__content {
+         padding: 0.5rem 3rem 2rem 3rem;
+
+         &__text {
+            display: block;
+         }
+      }
+      .header__container__content {
+         .navbar__container {
+            height: 120px;
+            .nav__links {
+               display: flex;
+               .burger-icon {
+                  display: none;
+               }
+               &__burger {
+                  display: none;
+               }
+               .nav__menu__links {
+                  display: flex;
+                  &__home {
+                     &__logo {
+                        font-size: 4rem;
+                        width: 5rem;
+                        height: 5rem;
+                        margin: 20px;
+                        padding-top: 0.4rem;
+                        a {
+                           text-decoration: none;
+                           color: inherit;
+                        }
+                     }
+                     &__text {
+                        font-size: 26px;
+                        margin-top: 2rem;
+                     }
+                  }
+                  &__desktop {
+                     display: flex;
+                     margin: 0 0 0 3rem;
+                     .navbar__nav__list {
+                        &--desktop {
+                           display: flex;
+                           justify-content: space-between;
+                           list-style: none;
+                           align-items: center;
+                        }
+                        &__link {
+                           font-family: #{$fontArchivo};
+                           font-weight: 600;
+                           margin: 1rem 0.8rem;
+                           a {
+                              text-decoration: none;
+                              color: inherit;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+            &__icon {
+               margin-right: 2rem;
+               &__container {
+                  width: 3rem;
+                  height: 3rem;
+                  border: 2px solid rgba(133, 133, 133, 0.3);
+                  img {
+                     width: 25px;
+                     height: 25px;
+                     margin: 9px;
+                  }
+               }
+            }
+         }
+      }
+   }
+} ;

@@ -141,6 +141,80 @@
   margin-right: 20px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .header__container {
+    height: 70px;
+    background-color: #222222;
+  }
+  .header__container__content {
+    padding: 0.5rem 3rem 2rem 3rem;
+  }
+  .header__container__content__text {
+    display: block;
+  }
+  .header__container .header__container__content .navbar__container {
+    height: 120px;
+  }
+  .header__container .header__container__content .navbar__container .nav__links {
+    display: flex;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .burger-icon {
+    display: none;
+  }
+  .header__container .header__container__content .navbar__container .nav__links__burger {
+    display: none;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links {
+    display: flex;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__home__logo {
+    font-size: 4rem;
+    width: 5rem;
+    height: 5rem;
+    margin: 20px;
+    padding-top: 0.4rem;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__home__logo a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__home__text {
+    font-size: 26px;
+    margin-top: 2rem;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__desktop {
+    display: flex;
+    margin: 0 0 0 3rem;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__desktop .navbar__nav__list--desktop {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__desktop .navbar__nav__list__link {
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+    margin: 1rem 0.8rem;
+  }
+  .header__container .header__container__content .navbar__container .nav__links .nav__menu__links__desktop .navbar__nav__list__link a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .header__container .header__container__content .navbar__container__icon {
+    margin-right: 2rem;
+  }
+  .header__container .header__container__content .navbar__container__icon__container {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid rgba(133, 133, 133, 0.3);
+  }
+  .header__container .header__container__content .navbar__container__icon__container img {
+    width: 25px;
+    height: 25px;
+    margin: 9px;
+  }
+}
 .footer__content {
   padding: 0 20px;
 }
@@ -360,7 +434,7 @@
   }
   .ultimate-section__content {
     width: 100vw;
-    padding: 8rem;
+    padding: 12rem 8rem 8rem 7rem;
   }
   .ultimate-section__title {
     width: 20rem;
@@ -2171,6 +2245,56 @@
   width: 220px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .offers {
+    padding: 48px 15% 0 15%;
+  }
+  .offers .offer {
+    position: relative;
+    margin-bottom: 500px;
+  }
+  .offers .offer__image .image {
+    height: 400px;
+  }
+  .offers .offer__text {
+    padding-left: 60px;
+    width: 700px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -45px auto auto auto;
+    background-color: #FFFFFF;
+    border-top: 6px solid #BEAD8E;
+  }
+  .offers .offer__text hr {
+    display: block;
+    border: 1px solid #ECECEC;
+    margin: 40px 0 35px 0;
+  }
+  .offers .offer__text__titles {
+    padding-top: 3rem;
+  }
+  .offers .offer__prices {
+    right: 40px;
+    top: 30px;
+  }
+  .offers .offer__desc__amenities {
+    display: flex;
+  }
+  .offers .offer__text__description {
+    width: 500px;
+    padding-right: 10px;
+  }
+  .offers .offer__amenities {
+    width: 50%;
+    padding-left: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .offers .offer__btn {
+    position: relative;
+    bottom: 40px;
+  }
+}
 .popular {
   padding: 48px 20px;
   background-color: #000000;
