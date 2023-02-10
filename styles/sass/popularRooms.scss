@@ -1,15 +1,15 @@
 .popular {
    padding: 48px 20px;
-   background-color:  #{$blackFull};
+   background-color: #{$blackFull};
    width: 100%;
    &__titles {
       margin: 20px auto;
       height: 50px;
       text-align: center;
       &__title {
-         font-family:  #{$fontOld};
+         font-family: #{$fontOld};
          font-size: 40px;
-         color:  #{$white};
+         color: #{$white};
          margin-bottom: 50px;
       }
       &__subtitle {
@@ -37,7 +37,6 @@
       }
       &__bar {
          position: relative;
-        //  top: -20px;
          left: 0px;
          right: 0;
          bottom: 34px;

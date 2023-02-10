@@ -162,8 +162,8 @@
             padding: 100px 0;
         }
 
-        &__description{
-            &__text{
+        &__description {
+            &__text {
                 line-height: 25px;
                 width: 250px;
             }
@@ -173,7 +173,6 @@
         }
 
         &__services {
-            
             &__column {
                 margin-right: 2rem;
             }
@@ -196,9 +195,8 @@
                 margin-top: 0;
             }
         }
-        &__services{
+        &__services {
             line-height: 1.95rem;
         }
     }
-
 }

@@ -1,4 +1,4 @@
-.video-about{
+.video-about {
     &__container {
         padding: 55px 20px;
         background-color: #{$darkBlack};
@@ -10,9 +10,8 @@
         object-fit: cover;
         border: none;
         padding: 0rem 1rem;
-        
     }
-    &__p{
+    &__p {
         font-family: #{$fontOld};
         font-size: 28px;
         text-align: center;
@@ -35,13 +34,13 @@
                 display: block;
             }
         }
-        &__description{
-        font-size: 72px;
-        padding: 0 50px;
-    }
-    &__p{
-        font-size: 50px;
-        padding: 0rem 4rem;
-    }
+        &__description {
+            font-size: 72px;
+            padding: 0 50px;
+        }
+        &__p {
+            font-size: 50px;
+            padding: 0rem 4rem;
+        }
     }
 }

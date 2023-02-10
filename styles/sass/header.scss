@@ -43,7 +43,6 @@
                      a {
                         text-decoration: none;
                         color: inherit;
-                        
                      }
                   }
                }
@@ -59,9 +58,9 @@
                &--close {
                   padding-top: 5px;
                }
-					.hidden{
-						display: none;
-					}
+               .hidden {
+                  display: none;
+               }
             }
 
             .nav__menu__links {
@@ -93,12 +92,11 @@
                      font-size: 13px;
                      & span {
                         font-weight: 700;
-                        
                      }
                      & a {
-                              text-decoration: none;
-                              color: #111111;
-                        }
+                        text-decoration: none;
+                        color: #111111;
+                     }
                   }
                }
                &__desktop {
@@ -110,7 +108,6 @@
          &__icon {
             display: flex;
             align-items: center;
-            
 
             &__container {
                display: flex;
@@ -166,7 +163,6 @@
                      }
                      &__text {
                         font-size: 26px;
-                        
                      }
                   }
                   &__desktop {
@@ -208,4 +204,4 @@
          }
       }
    }
-} ;
+}

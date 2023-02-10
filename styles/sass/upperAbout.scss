@@ -8,10 +8,10 @@
 
     &__title {
         width: 15rem;
-        font-family:  #{$fontRoboto};
+        font-family: #{$fontRoboto};
         font-size: 13px;
         font-weight: 700;
-        color:  #{$white};
+        color: #{$white};
         margin-top: 40px;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
@@ -26,8 +26,8 @@
         max-width: 20rem;
     }
 
-    &__links{
-        font-family:  #{$fontArchivo};
+    &__links {
+        font-family: #{$fontArchivo};
         font-weight: 700;
         background-color: #{$white};
         width: max-content;
@@ -35,20 +35,18 @@
         position: absolute;
         bottom: 0;
         right: 10%;
-        &--about{
-            color: #{$gold}!important;
+        &--about {
+            color: #{$gold} !important;
         }
-        a{
+        a {
             text-decoration: none;
         }
-        span{
+        span {
             padding: 0 5px;
         }
         :visited {
             color: inherit;
         }
-
-        
     }
 }
 
@@ -64,14 +62,13 @@
 
         &__description {
             font-size: 46px;
-            
         }
-        &__button{
+        &__button {
             display: inline;
             margin-right: 30px;
         }
 
-        &__links{
+        &__links {
             right: 15%;
         }
     }

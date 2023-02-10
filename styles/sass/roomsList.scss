@@ -1,5 +1,4 @@
 .rooms-list {
-    // padding: 2rem;
     display: block;
     position: relative;
     padding-right: 8px;
@@ -25,7 +24,7 @@
                 padding: 8px;
                 border-radius: 0;
                 color: #{$blackFull};
-                background:  #{$white};
+                background: #{$white};
                 opacity: 1;
 
                 &:hover {
@@ -60,7 +59,8 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            .prev-img, .next-img {
+            .prev-img,
+            .next-img {
                 cursor: pointer;
             }
         }
@@ -82,7 +82,6 @@
             background-size: cover;
         }
         &__content {
-            // margin: -20px auto auto -35px;
             width: 300px;
         }
         &__bar {
@@ -113,7 +112,7 @@
             &__description {
                 font-family: #{$fontRoboto};
                 font-size: 14px;
-                color:  #{$footerGray};
+                color: #{$footerGray};
                 padding: 16px 20px;
                 line-height: 24px;
             }
@@ -134,39 +133,39 @@
                 display: none;
             }
             &__booking {
-                color:  #{$footerGray};
+                color: #{$footerGray};
                 opacity: 50%;
             }
         }
         &--grid {
-                width: 100%;
-                margin: auto;
-            }    
-            &__container--grid {
-                display: block;
-            }
-            &__img--grid {
-                height: 200px;
-            }
+            width: 100%;
+            margin: auto;
+        }
+        &__container--grid {
+            display: block;
+        }
+        &__img--grid {
+            height: 200px;
+        }
 
-            &__content--grid {
-                margin: -20px auto auto auto;
-            }
+        &__content--grid {
+            margin: -20px auto auto auto;
+        }
 
-            &__bar--grid {
-                margin: -20px auto auto auto;
-                width: 80%;
-            }
-            &__text{
-                &--grid {
+        &__bar--grid {
+            margin: -20px auto auto auto;
+            width: 80%;
+        }
+        &__text {
+            &--grid {
                 padding-top: 25px;
-                }
-                &__description--grid {
-                    padding: 16px 30px 16px 30px;
-                }
+            }
+            &__description--grid {
+                padding: 16px 30px 16px 30px;
             }
         }
     }
+}
 
 @media only screen and (min-width: 1000px) {
     .rooms-list {
@@ -229,22 +228,22 @@
                     display: block;
                     text-align: center;
                 }
-                    &__amount--list {
-                        font-size: 40px;
-                        span {
-                            font-size: 16px;
-                        }
+                &__amount--list {
+                    font-size: 40px;
+                    span {
+                        font-size: 16px;
                     }
-                
+                }
+
                 hr {
                     display: block;
                     margin: 10px auto;
-                    border: 1px solid  #{$greyShadow};
+                    border: 1px solid #{$greyShadow};
                     opacity: 20%;
                     width: 50%;
                 }
                 &__booking--list {
-                    color:  #{$footerGray};
+                    color: #{$footerGray};
                     opacity: 50%;
                     margin: auto;
                 }
@@ -253,7 +252,7 @@
             &--grid {
                 width: 100%;
                 margin: auto;
-            }    
+            }
             &__container--grid {
                 display: block;
             }
@@ -269,9 +268,9 @@
                 margin: -20px auto auto auto;
                 width: 80%;
             }
-            &__text{
+            &__text {
                 &--grid {
-                padding-top: 25px;
+                    padding-top: 25px;
                 }
                 &__description--grid {
                     padding: 16px 30px 16px 30px;
