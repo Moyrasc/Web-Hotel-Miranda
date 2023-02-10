@@ -131,6 +131,7 @@
             padding: 0px 0px 0px 50px;
             &__title{
                 margin-bottom: 16px;
+                padding-right: 6rem;
             }
             &__label{
                 margin: 13px 0px;
@@ -313,4 +314,9 @@
 	.related-rooms {
 		padding: 75px 20% 115px 20%;
 	}
+    .room-home {
+    &__bar--related {
+        top: 14rem;
+        left: 200px;
+    }}
 }

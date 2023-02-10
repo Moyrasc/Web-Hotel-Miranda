@@ -141,7 +141,7 @@
       }
       .header__container__content {
          .navbar__container {
-            height: 120px;
+            height: 110px;
             .nav__links {
                display: flex;
                .burger-icon {
@@ -154,9 +154,9 @@
                   display: flex;
                   &__home {
                      &__logo {
-                        font-size: 4rem;
-                        width: 5rem;
-                        height: 5rem;
+                        font-size: 3rem;
+                        width: 4rem;
+                        height: 4rem;
                         margin: 20px;
                         padding-top: 0.4rem;
                         a {
@@ -166,7 +166,7 @@
                      }
                      &__text {
                         font-size: 26px;
-                        margin-top: 2rem;
+                        
                      }
                   }
                   &__desktop {
@@ -199,9 +199,9 @@
                   height: 3rem;
                   border: 2px solid rgba(133, 133, 133, 0.3);
                   img {
-                     width: 25px;
-                     height: 25px;
-                     margin: 9px;
+                     width: 20px;
+                     height: 20px;
+                     margin: 11px;
                   }
                }
             }
