@@ -71,7 +71,7 @@
             background-color: #292929;
         }
     }
-    .swiper-facilitiess {
+    .swiper-facilities {
         overflow: hidden;
         &__pagination {
             margin-top: 32px;
@@ -91,11 +91,11 @@
         &__title {
             margin-bottom: 60px;
         }
-        .swiper-facilitiess {
+        .swiper-facilities {
             display: none;
         }
 
-        .grid-facilitiess {
+        .grid-facilities {
             display: grid;
             padding: 0 10%;
             grid-template-columns: 1fr 1fr 1fr;
