@@ -25,6 +25,6 @@ La aplicación esta diseñada bajo el enfoque  mobile first desing, actualmente 
 
 ## 🚀 Proyecto desplegado
 
-Vercel: https://web-hotel-miranda-ebon.vercel.app/
+Vercel: <https://web-hotel-miranda-ebon.vercel.app/>
 
-GitHub Pages: https://moyrasc.github.io/Web-Hotel-Miranda/
+GitHub Pages: <https://moyrasc.github.io/Web-Hotel-Miranda/>
