@@ -7,6 +7,7 @@
    z-index: 2;
 
    &__content {
+
       &__text {
          display: none;
          color: #{$white};
@@ -130,6 +131,7 @@
       height: 70px;
       background-color: #{$darkBlack};
       &__content {
+         opacity: 80%;
          padding: 0.5rem 3rem 2rem 3rem;
 
          &__text {
