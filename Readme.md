@@ -6,7 +6,9 @@ Web para hotel diseñada bajo prototipo de Figma
 
 ## Descripción
 
-La aplicación esta diseñada bajo el enfoque  mobile first desing, actualmente se encuentra en desarrollo para vista de escritorio.
+Web Hotel Miranda, en este repositorio se encuentra la landing page del hotel, realizada desde la perspectiva mobile first es totalmente responsive.
+
+La idea es unir este proyecto con el proyecto del dashboard dónde implementaré las funcionalidades de crear habitaciones, reservas, disponibilidad de habitaciones, etc... De esta manera tanto la web como el panel de administración se comunicarán para poder interactuar entre sí.
 
 ## Tecnologías
 
